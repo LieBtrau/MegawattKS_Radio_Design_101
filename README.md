@@ -9,6 +9,8 @@ I'm going to somewhat organize this page by the "project" number listed on the c
 
 ### Project 1: Tuned RF Amplifier
 
+I decided not to use LT Spice for the simulation work due to the difficulty with getting S-parameters to be calculated, and no support for plotting on a Smith chart. That's not to say that it can't be done -- just wasn't my choice. Instead, I'm using [QucsStudio](https://qucsstudio.de/). It's not perfect either. One annoyance is that you can't easily import the SPICE model of a transistor. Another annoyance is that you can't give an RF power port a complex impedance. But otherwise I've been happy with the GUI and ease of use. 
+
 This is my initial design of a Common Base RF amplifier with DC operating point: 
 ![cb_amp](https://github.com/user-attachments/assets/02ed81b2-87ec-4be7-87fa-f3cb74385aaf)
 
