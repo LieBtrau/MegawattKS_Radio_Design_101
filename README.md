@@ -19,4 +19,10 @@ Here is the predicted RF performance. My 3dB bandwidth is looking to be about 12
 
 ![cb_amp_sparam](https://github.com/user-attachments/assets/4583d7ae-c089-40c1-800d-a73366224222)
 
-Of course, when it comes to RF, the predictions are just a rough starting point. One of the things that I wanted to study, as discussed in the Lecture series, is the impact of component parasitics on the insertion loss of the system. 
+Of course, when it comes to RF, the predictions are just a rough starting point. One of the things that I wanted to study, as discussed in the Lecture series, is the impact of component parasitics on the insertion loss of the system. So, I built three different pre-select filters on an RF protoboard and measured the S21 with my NanoVNA. 
+
+Here is the first prototype, built from less than a single turn of wire and a 330 pF capacitor. (Note that the cap that I used isn't the desired value, just what I had on-hand at the time being.) 
+
+Here is the second prototype, built with a 6.9 nH CoilCraft air-wound inductor and the same 330 pF capacitor. 
+
+And here is the third prototype, built with a 6.8 nH Johanson ceramic chip inductor and the same 330 pF capacitor. 
