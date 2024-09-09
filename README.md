@@ -1,4 +1,6 @@
-# FM Receiver
+## FM Receiver
+My inspiration for this project comes from the outstanding [YouTube series](https://www.youtube.com/watch?v=r_p7AHsSOdw&list=PL9Ox3wpnB0kqekAyz6blg4YdvoEMoJNJY), "Radio Design 101". 
+
 
 This is my initial design of a Common Base RF amplifier with DC operating point: 
 ![cb_amp](https://github.com/user-attachments/assets/02ed81b2-87ec-4be7-87fa-f3cb74385aaf)
