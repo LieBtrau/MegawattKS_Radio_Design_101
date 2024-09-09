@@ -16,3 +16,5 @@ This is my initial design of a Common Base RF amplifier with DC operating point:
 
 Predicted RF performance: 
 ![cb_amp_sparam](https://github.com/user-attachments/assets/4583d7ae-c089-40c1-800d-a73366224222)
+
+Of course, when it comes to RF, the predictions are just a rough starting point. One of the things that I wanted to study, as discussed in the Lecture series, is the impact of component parasitics on the insertion loss of the system. 
