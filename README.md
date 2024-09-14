@@ -23,6 +23,12 @@ Of course, when it comes to RF, the predictions are just a rough starting point.
 
 Here is the first prototype, built from less than a single turn of wire and a 330 pF capacitor. (Note that the cap that I used isn't the desired value, just what I had on-hand at the time being.) 
 
-Here is the second prototype, built with a 6.9 nH CoilCraft air-wound inductor and the same 330 pF capacitor. 
+![bandpass_wireLoop](https://github.com/user-attachments/assets/7d437fbc-9ab3-40a2-aec2-6737f56e5a0f)
 
-And here is the third prototype, built with a 6.8 nH Johanson ceramic chip inductor and the same 330 pF capacitor. 
+Here is the second prototype, built with a 6.9 nH CoilCraft air-wound inductor and the same 330 pF capacitor. 
+![s21_coilcraft](https://github.com/user-attachments/assets/ddb52d55-6664-4de4-a05b-77f7c6b50832)
+![bandpass-coilcraft](https://github.com/user-attachments/assets/355d9337-8e47-4b52-92e7-ec24140f006e)
+
+So this was interesting and good news, because I could use the small wire-wound inductor as the S21 wasn't too high. I had a long-term plan for making this receiver as small as possible. 
+
+The next step was to measure the input impedance of the amplifier and design a matching network to match it to a 50 Ohm antenna, and then see how close it comes to the one that is the ideal network predicted by QucsStudio. 
