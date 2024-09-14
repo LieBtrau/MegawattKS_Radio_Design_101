@@ -7,7 +7,7 @@ The first step in getting started was ordering some of these excellent [RF proto
 
 I'm going to somewhat organize this page by the "project" number listed on the companion website. 
 
-### Project 1: Tuned RF Amplifier
+### Project 1: Tuned RF Amplifier and Image Filter
 
 I decided not to use LT Spice for the simulation work due to the difficulty with getting S-parameters to be calculated, and no support for plotting on a Smith chart. That's not to say that it can't be done -- just wasn't my choice. Instead, I'm using [QucsStudio](https://qucsstudio.de/). It's not perfect either. One annoyance is that you can't easily import the SPICE model of a transistor. Another annoyance is that you can't give an RF power port a complex impedance. But otherwise I've been happy with the GUI and ease of use. 
 
@@ -32,3 +32,10 @@ Here is the second prototype, built with a 6.9 nH CoilCraft air-wound inductor a
 So this was interesting and good news, because I could use the small wire-wound inductor as the S21 wasn't too high. I had a long-term plan for making this receiver as small as possible. 
 
 The next step was to measure the input impedance of the amplifier and design a matching network to match it to a 50 Ohm antenna, and then see how close it comes to the one that is the ideal network predicted by QucsStudio. 
+
+
+### Project 2: Local Oscillator and Mixer
+
+In the "Radio Design 101" series, the presenter describes how to build an oscillator from an amplifier. This sounded interesting; but I also saw this as an opportunity to add a microcontroller to my project, and I really enjoy working with microcontrollers! 
+
+So, I bought an [Si5351 breakout](https://learn.adafruit.com/adafruit-si5351-clock-generator-breakout) board from Adafruit, which had the benefit of already coming with an easy-to-use Arduino library. 
