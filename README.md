@@ -40,7 +40,7 @@ In the "Radio Design 101" series, the presenter describes how to build an oscill
 
 So, I bought an [Si5351 breakout](https://learn.adafruit.com/adafruit-si5351-clock-generator-breakout) board from Adafruit, which had the benefit of already coming with an easy-to-use Arduino library.  I took the base Adafruit library and added two push-buttons increment/decrement the output frequency of the Si5351 for channel selection purposes. 
 
-For a low-side injection at the mixer, the goal is to create a 10.7 MHz difference between the LO and the desired FM station. So, starting at 88.7 MHz, my lowest LO is 78 MHz. 
+For a low-side injection at the mixer, the goal is to create a 10.7 MHz difference between the LO and the desired FM station. So, starting at 88.7 MHz, my lowest LO is 78 MHz. I programmed the Si5351 to output 78 MHz, and then connected the output SMA to the input of my TinySA through 30 dB of attenuation. 
 
 ![tinysa4_LOGMAG_S11_2024-09-15_11-37-53](https://github.com/user-attachments/assets/385cf971-ec32-40af-a03c-ecc6fb97fe11)
 
