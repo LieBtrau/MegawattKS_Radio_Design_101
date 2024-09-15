@@ -39,3 +39,9 @@ The next step was to measure the input impedance of the amplifier and design a m
 In the "Radio Design 101" series, the presenter describes how to build an oscillator from an amplifier. This sounded interesting; but I also saw this as an opportunity to add a microcontroller to my project, and I really enjoy working with microcontrollers! 
 
 So, I bought an [Si5351 breakout](https://learn.adafruit.com/adafruit-si5351-clock-generator-breakout) board from Adafruit, which had the benefit of already coming with an easy-to-use Arduino library.  I took the base Adafruit library and added two push-buttons increment/decrement the output frequency of the Si5351 for channel selection purposes. 
+
+For a low-side injection at the mixer, the goal is to create a 10.7 MHz difference between the LO and the desired FM station. So, starting at 88.7 MHz, my lowest LO is 78 MHz. 
+
+![tinysa4_LOGMAG_S11_2024-09-15_11-37-53](https://github.com/user-attachments/assets/385cf971-ec32-40af-a03c-ecc6fb97fe11)
+
+In learning a little bit about PLLs and using fractional dividers, the output spurs are to be expected since I'm not using an integer multiplier.  The good thing is that they are so far away from 78 MHz that using the crystal filter on the output of the mixer should easily take care of them. 
