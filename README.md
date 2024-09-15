@@ -38,4 +38,4 @@ The next step was to measure the input impedance of the amplifier and design a m
 
 In the "Radio Design 101" series, the presenter describes how to build an oscillator from an amplifier. This sounded interesting; but I also saw this as an opportunity to add a microcontroller to my project, and I really enjoy working with microcontrollers! 
 
-So, I bought an [Si5351 breakout](https://learn.adafruit.com/adafruit-si5351-clock-generator-breakout) board from Adafruit, which had the benefit of already coming with an easy-to-use Arduino library. 
+So, I bought an [Si5351 breakout](https://learn.adafruit.com/adafruit-si5351-clock-generator-breakout) board from Adafruit, which had the benefit of already coming with an easy-to-use Arduino library.  I took the base Adafruit library and added two push-buttons increment/decrement the output frequency of the Si5351 for channel selection purposes. 
