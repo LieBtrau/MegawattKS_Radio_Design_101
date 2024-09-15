@@ -44,4 +44,8 @@ For a low-side injection at the mixer, the goal is to create a 10.7 MHz differen
 
 ![tinysa4_LOGMAG_S11_2024-09-15_11-37-53](https://github.com/user-attachments/assets/385cf971-ec32-40af-a03c-ecc6fb97fe11)
 
-In learning a little bit about PLLs and using fractional dividers, the output spurs are to be expected since I'm not using an integer multiplier.  The good thing is that they are so far away from 78 MHz that using the crystal filter on the output of the mixer should easily take care of them. 
+In learning a little bit about PLLs and using fractional dividers, the output spurs are to be expected since I'm not using an integer multiplier.  I verified that these spurs were caused by the fractional PLL dividers by setting it to an integer: 25 MHz * 32 / 8 = 100 MHz. Here is what I saw: 
+
+![tinysa4_LOGMAG_S11_2024-09-15_14-19-45](https://github.com/user-attachments/assets/16f9bf0f-4bbc-41b4-992f-872e66abd41c)
+
+The good thing is that they are so far away from 78 MHz that using the crystal filter on the output of the mixer should easily take care of them. 
