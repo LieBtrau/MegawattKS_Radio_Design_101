@@ -48,4 +48,4 @@ In learning a little bit about PLLs and using fractional dividers, the output sp
 
 ![tinysa4_LOGMAG_S11_2024-09-15_14-19-45](https://github.com/user-attachments/assets/16f9bf0f-4bbc-41b4-992f-872e66abd41c)
 
-The good thing is that they are so far away from 78 MHz that using the crystal filter on the output of the mixer should easily take care of them. 
+The good thing is that the spurs are so far away from 78 MHz that using the crystal filter on the output of the mixer should easily take care of them.
