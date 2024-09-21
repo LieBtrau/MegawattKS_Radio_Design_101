@@ -13,6 +13,8 @@ I decided not to use LT Spice for the simulation work due to the difficulty with
 
 This is my initial design of a Common Base Class A RF amplifier and the associated DC operating point. I chose this operating point as it seemed to give decent gain with the input voltage of 5V. There is some margin on the table, as I could lower the emitter resistor and operate closer to an emitter current of 5 mA, if needed. But for now, this was a good starting point. 
 
+A couple of notes. First, I am using component values that I have on hand, not the ideal simulation values. Second, I have combined the image filter and matching network inductor into a single inductor, for the purposes of measuring the S21 through a VNA. When this is finally hooked up into the receiver circuit, I will have to adjust this inductor to account for the fact that the input to the mixer stage is 1.5K Ohms. 
+
 ![amp_pic](https://github.com/user-attachments/assets/c6208826-0576-438f-9626-4b769f2b1177)
 
 Here is the predicted RF performance. My 3dB bandwidth is looking to be about 12 MHz and both S11 and S22 are less than <-10dB at 98 MHz. 
