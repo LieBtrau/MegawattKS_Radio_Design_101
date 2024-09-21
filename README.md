@@ -13,11 +13,11 @@ I decided not to use LT Spice for the simulation work due to the difficulty with
 
 This is my initial design of a Common Base Class A RF amplifier and the associated DC operating point. I chose this operating point as it seemed to give decent gain with the input voltage of 5V. There is some margin on the table, as I could lower the emitter resistor and operate closer to an emitter current of 5 mA, if needed. But for now, this was a good starting point. 
 
-![cb_amp](https://github.com/user-attachments/assets/02ed81b2-87ec-4be7-87fa-f3cb74385aaf)
+![amp_pic](https://github.com/user-attachments/assets/c6208826-0576-438f-9626-4b769f2b1177)
 
 Here is the predicted RF performance. My 3dB bandwidth is looking to be about 12 MHz and both S11 and S22 are less than <-10dB at 98 MHz. 
 
-![cb_amp_sparam](https://github.com/user-attachments/assets/4583d7ae-c089-40c1-800d-a73366224222)
+![cb_sp](https://github.com/user-attachments/assets/ea8e3433-f29e-4b43-9fb9-d4d434598a3f)
 
 Of course, when it comes to RF, the predictions are just a rough starting point. One of the things that I wanted to study, as discussed in the Lecture series, is the impact of component parasitics on the insertion loss of the system. So, I built three different pre-select filters on an RF protoboard and measured the S21 with my NanoVNA. 
 
