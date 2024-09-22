@@ -9,6 +9,7 @@ I'm going to somewhat organize this page by the "project" number listed on the c
 
 ### Project 1: Tuned RF Amplifier and Image Filter
 
+#### Simulations
 I decided not to use LT Spice for the simulation work due to the difficulty with getting S-parameters to be calculated, and no support for plotting on a Smith chart. That's not to say that it can't be done -- just wasn't my choice. Instead, I'm using [QucsStudio](https://qucsstudio.de/). It's not perfect either. One annoyance is that you can't easily import the SPICE model of a transistor. Another annoyance is that you can't give an RF power port a complex impedance. But otherwise I've been happy with the GUI and ease of use. 
 
 This is my initial design of a Common Base Class A RF amplifier and the associated DC operating point. I chose this operating point as it seemed to give decent gain with the input voltage of 5V. There is some margin on the table, as I could lower the emitter resistor and operate closer to an emitter current of 5 mA, if needed. But for now, this was a good starting point. 
@@ -20,6 +21,8 @@ A couple of notes. First, I am using component values that I have on hand, not t
 Here is the predicted RF performance. My 3dB bandwidth is looking to be about 12 MHz and both S11 and S22 are less than <-10dB at 98 MHz. 
 
 ![cb_sp](https://github.com/user-attachments/assets/ea8e3433-f29e-4b43-9fb9-d4d434598a3f)
+
+#### Measurements
 
 Of course, when it comes to RF, the predictions are just a rough starting point. One of the things that I wanted to study, as discussed in the Lecture series, is the impact of component parasitics on the insertion loss of the system. So, I built three different pre-select filters on an RF protoboard and measured the S21 with my NanoVNA. 
 
@@ -35,10 +38,20 @@ So this was interesting and good news, because I could use the small wire-wound 
 
 The next step was to measure the input impedance of the amplifier and design a matching network to match it to a 50 Ohm antenna, and then see how close it comes to the one that is the ideal network predicted by QucsStudio. 
 
+Here is a picture of my completed amplifier, with both the input and output filters. 
+
+
+Measuring the input impedance with using the matching network as predicted by QucsStudio actually gave me a very good S11 on the first try. whoohoo! 
+
+However, the output impedance was a different story. I started with the predicted components for the image reject filter, a 470 nH inductor and 5.6 pF cap, followed by a 1 uF series DC block. I measured about 35 - j300 at 98 MHz, which was way off. But it was interesting, because this value was on the simulation curve of S22, but around 165 MHz! So when I went back to the simulation and used a shunt cap value of 11 pF instead of 5.6 pF, the simulation did show an impedance of 32 - j300 at 98 MHz. This would mean that I had about 5.5 pF of parasitic capacitance in my board setup.  I am using RF capacitors from Johanson, but I am also using 0805 wirewound inductors instead of winding my own wire inductors. Could this be contributing? Not sure.  
+
+So, I lowered the 5.6 pF cap down to 1pF and measured about 2300 - j50 at 98 MHz, and this was great. I decided to press on.  
+
+
 
 ### Project 2: Local Oscillator and Mixer
 
-In the "Radio Design 101" series, the presenter describes how to build an oscillator from an amplifier. This sounded interesting; but I also saw this as an opportunity to add a microcontroller to my project, and I really enjoy working with microcontrollers! 
+In the "Radio Design 101" series, the professor describes how to build an oscillator from an amplifier. This sounded interesting; but I also saw this as an opportunity to add a microcontroller to my project, and I really enjoy working with microcontrollers! 
 
 So, I bought an [Si5351 breakout](https://learn.adafruit.com/adafruit-si5351-clock-generator-breakout) board from Adafruit, which had the benefit of already coming with an easy-to-use Arduino library.  I took the base Adafruit library and added two push-buttons increment/decrement the output frequency of the Si5351 for channel selection purposes. 
 
