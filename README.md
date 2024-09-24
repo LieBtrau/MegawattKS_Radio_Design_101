@@ -38,15 +38,30 @@ So this was interesting and good news, because I could use the small wire-wound 
 
 The next step was to measure the input impedance of the amplifier and design a matching network to match it to a 50 Ohm antenna, and then see how close it comes to the one that is the ideal network predicted by QucsStudio. 
 
-Here is a picture of my completed amplifier, with both the input and output filters. 
+Here is a picture of my completed amplifier, with both the input and output filters. The output stage was missing the matching network in this picture. 
 
+![LNA_build](https://github.com/user-attachments/assets/3981b2d6-12e8-4046-a1b7-8b36666e4b59)
 
 Measuring the input impedance with using the matching network as predicted by QucsStudio actually gave me a very good S11 on the first try. whoohoo! 
 
-However, the output impedance was a different story. I started with the predicted components for the image reject filter, a 470 nH inductor and 5.6 pF cap, followed by a 1 uF series DC block. I measured about 35 - j300 at 98 MHz, which was way off. But it was interesting, because this value was on the simulation curve of S22, but around 165 MHz! So when I went back to the simulation and used a shunt cap value of 11 pF instead of 5.6 pF, the simulation did show an impedance of 32 - j300 at 98 MHz. This would mean that I had about 5.5 pF of parasitic capacitance in my board setup.  I am using RF capacitors from Johanson, but I am also using 0805 wirewound inductors instead of winding my own wire inductors. Could this be contributing? Not sure.  
+However, the output impedance was a different story. I started with the predicted components for the image reject filter, a 470 nH inductor and 5.6 pF cap, followed by a 1 uF series DC block. I measured about 35 - j300 at 98 MHz, which was way off. But it was interesting, because this value was on the simulation curve of S22, but around 165 MHz! So when I went back to the simulation and used a shunt cap value of 11 pF instead of 5.6 pF, the simulation did show an impedance of 32 - j300 at 98 MHz. This would mean that I had about 5.5 pF of parasitic capacitance in my setup. According to the Johanson  I am using RF capacitors from Johanson, but I am also using 0805 wirewound inductors instead of winding my own wire inductors. Could this be contributing? Not sure.  
 
-So, I lowered the 5.6 pF cap down to 1pF and measured about 2300 - j50 at 98 MHz, and this was great. I decided to press on.  
+So, I lowered the 5.6 pF cap down to 1pF and measured about 2300 - j50 at 98 MHz, and this was great. I decided to press on.  Ultimately, I had to swap out components quite a few times to get a decent output impedance match to 50 Ohms. But, I finally acheived an S11 of <-10 dB, and then went to measure my S21 (gain). 
 
+![S21_gain_LNA](https://github.com/user-attachments/assets/17ec4d67-71d9-409c-b228-4ae40ed6f91e)![LNA_stats](https://github.com/user-attachments/assets/b60f5bd1-3531-45fa-9582-5648ce5ea764)
+
+
+Now, this was lower than predicted by almost 7 dB! So where did it all go? Well, that's the importance of having low insertion loss and high Q in the input/output filters and matching networks. And it's also a lesson in how simulation can stray from reality. I went back and adjusted some of the parasitics of the simulation and could see that the predicted gain dropped closer to the value that I measured, so i was satsified with this. 
+
+I also did a quick check to see what happened if I increased my supply voltage to 9V, and while it did slightly shift the peak frequency to 100 MHz, it also bumped up my gain by a good amount. 
+
+![s21_gain_LNA_9volts](https://github.com/user-attachments/assets/bd9963e9-63d7-48d5-a095-4219cc0c9f71)![LNA_stats_9volts](https://github.com/user-attachments/assets/3b249d8e-761c-4d53-91a9-b114b74227d3)
+
+So it would seem that I have an option of running at a higher DC voltage, if I need to. 
+
+As a final check on the "goodness" of this project, I compared a before/after sweep in the TinySA. 
+
+I considered this project finished enough for me to move on to the next one....
 
 
 ### Project 2: Local Oscillator and Mixer
