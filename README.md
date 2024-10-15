@@ -7,7 +7,7 @@ The first step in getting started was ordering some of these excellent [RF proto
 
 I'm going to somewhat organize this page by the "project" number listed on the companion website. 
 
-### Project 1: Tuned RF Amplifier and Image Filter
+### Project 1: Tuned RF Amplifier and Image Filter 
 
 #### Simulations
 I decided not to use LT Spice for the simulation work due to the difficulty with getting S-parameters to be calculated, and no support for plotting on a Smith chart. That's not to say that it can't be done -- just wasn't my choice. Instead, I'm using [QucsStudio](https://qucsstudio.de/). It's not perfect either. One annoyance is that you can't easily import the SPICE model of a transistor. Another annoyance is that you can't give an RF power port a complex impedance. But otherwise I've been happy with the GUI and ease of use. 
@@ -64,7 +64,7 @@ As a final check on the "goodness" of this project, I compared a before/after sw
 I considered this project finished enough for me to move on to the next one....
 
 
-### Project 2: Local Oscillator and Mixer
+### Project 2: Local Oscillator, Mixer, and IF Filter
 
 In the "Radio Design 101" series, the professor describes how to build an oscillator from an amplifier. This sounded interesting; but I also saw this as an opportunity to add a microcontroller to my project, and I really enjoy working with microcontrollers! 
 
@@ -79,3 +79,34 @@ In learning a little bit about PLLs and using fractional dividers, the output sp
 ![tinysa4_LOGMAG_S11_2024-09-15_14-19-45](https://github.com/user-attachments/assets/16f9bf0f-4bbc-41b4-992f-872e66abd41c)
 
 The good thing is that the spurs are so far away from 78 MHz that using the crystal filter on the output of the mixer should easily take care of them.
+
+
+### Project 3: IF Amplifier
+
+As first presented in the "Radio Design 101" series, the IF amplifier sub-system consists of back-to-back cascode stages. This was due to needing 65 dB of gain in the IF section, given 20 dB of gain in the input amplifier stage and 10 dB of gain in the mixer stage. I simulated this IF amplifier configuration and the predicted gain at 10.7 MHz was about 75 dB. 
+
+![IF_amp_2cascode](https://github.com/user-attachments/assets/c97fe861-303a-4e02-9e09-8150d350272d)
+
+![IF_amp_2cascodeGAIN](https://github.com/user-attachments/assets/6761e223-7c60-4551-9a06-a77143e4a943)
+
+I decided to build one stage and test/measure them as separate units. My simulation of a single stage predicted a gain of greater than 40 dB. 
+
+![IF_amp_1cascode](https://github.com/user-attachments/assets/f0be605c-313c-416b-8e14-cbd1fd38f495)
+
+![IF_amp_1cascodeGAIN](https://github.com/user-attachments/assets/c1db2135-71f5-470b-b966-3b44606fb95f)
+
+You'll notice the large-ish inductor in the output filter of the amplifier. I was going to have to avoid my fear of winding toroids and making my own inductors, because there was no way that a chip inductor of 10 uH was going to have acceptable performance. I had purchased the two types of toroid cores as recommended in the course's lecture notes from a great [online store](https://kitsandparts.com/). They also have an [inductance calculator](http://toroids.info/) that is really easy to use. Based on using the FT37-67, the number of windings was about 22 at 10.7 MHz. So I used some 27 AWG magnet wire and gave it a shot! After winding, I used my NanoVNA to measure the inductance at 10.7 MHz at it was right about 9.5 uH, so I considered this a win for my first try. 
+
+The next step was to build a single stage and measure the performance. Here is the completed stage: 
+
+![IF_amp_build](https://github.com/user-attachments/assets/42749395-5ab4-4a99-b63b-43fe67bebe2e)
+
+The first thing that I did was use my multimeter to verify the DC operating point, and since that looked good, I hooked up the NanoVNA to measure the gain. As described in the Youtube series, I used attenuators on the input and output, and I was able to perform a "through" calibration on this low signal. The result was a little noisy, as you can see in the graph, but overall the measured gain aligns very nicely with the predicted gain. 
+
+![IF_amp_measure1](https://github.com/user-attachments/assets/61dbc3b4-1205-462f-8f14-1b8d8a31d4d9)
+
+![IF_amp_measure2](https://github.com/user-attachments/assets/22f879d1-dcbd-4d83-b3ff-3d54bd9c93f6)
+
+
+
+
