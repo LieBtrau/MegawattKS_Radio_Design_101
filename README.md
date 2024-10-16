@@ -80,6 +80,10 @@ In learning a little bit about PLLs and using fractional dividers, the output sp
 
 The good thing is that the spurs are so far away from 78 MHz that using the crystal filter on the output of the mixer should easily take care of them.
 
+I am currently a bit stuck on this Project/sub-system as I'm not sure if I'm getting the correct output levels. I've got the tuned RF amplifier connected to the mixer connected to the IF filter. If I put in a a -50 dBm input into the RF amplifier, I measure about -42 dBm at the output of the IF filter. I'm not sure if this is correct so I'm going to put a placeholder here for now while I work on the next subsystem. 
+
+![system-3](https://github.com/user-attachments/assets/ce3773eb-7625-423b-a728-a7f2760079c0)
+
 
 ### Project 3: IF Amplifier
 
