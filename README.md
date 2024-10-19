@@ -64,7 +64,7 @@ As a final check on the "goodness" of this project, I compared a before/after sw
 I considered this project finished enough for me to move on to the next one....
 
 
-### Project 2: Local Oscillator, Mixer, and IF Filter
+### Project 2 & Project 3: Local Oscillator, Mixer, and IF Filter
 
 In the "Radio Design 101" series, the professor describes how to build an oscillator from an amplifier. This sounded interesting; but I also saw this as an opportunity to add a microcontroller to my project, and I really enjoy working with microcontrollers! 
 
@@ -85,7 +85,7 @@ I am currently a bit stuck on this Project/sub-system as I'm not sure if I'm get
 ![system-3](https://github.com/user-attachments/assets/ce3773eb-7625-423b-a728-a7f2760079c0)
 
 
-### Project 3: IF Amplifier
+### Project 3: IF Amplifier and Demodulator
 
 As first presented in the "Radio Design 101" series, the IF amplifier sub-system consists of back-to-back cascode stages. This was due to needing 65 dB of gain in the IF section, given 20 dB of gain in the input amplifier stage and 10 dB of gain in the mixer stage. I simulated this IF amplifier configuration and the predicted gain at 10.7 MHz was about 75 dB. 
 
@@ -111,6 +111,9 @@ The first thing that I did was use my multimeter to verify the DC operating poin
 
 ![IF_amp_measure2](https://github.com/user-attachments/assets/22f879d1-dcbd-4d83-b3ff-3d54bd9c93f6)
 
+The next step of the process was to build the FM demodulator. I implemented the following circuit as-is, including the adjustable inductor for tuning after the circuit was built. 
 
+![classic_FM_demod](https://github.com/user-attachments/assets/fd58d572-3f7a-4dc2-a5ea-9cfcefce81ef)
 
+For the inductor, I used a Coilcraft. 
 
