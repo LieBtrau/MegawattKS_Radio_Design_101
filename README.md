@@ -123,11 +123,7 @@ For testing, I used a combination of an oscilloscope and a powered speaker set. 
 
 ![phase_shifter_scope](https://github.com/user-attachments/assets/e789a544-6ff8-427e-b935-4d732abbb710)
 
-Next, I hooked up my powered speaker set to the output and listened for the 1 KHz tone, which I could hear quite well. It was working! 
-
-https://github.com/user-attachments/assets/2c41fdf8-a8fa-4dbf-b8e8-d15532fe33bb
-
-At this point I was getting so close to the finished receiver that it was starting to feel like it could really work! It was time to connect all of the pieces together, which consisted of two RF proto-boards and a separate breadboard with the LO clock generator. 
+Next, I hooked up my powered speaker set to the output and listened for the 1 KHz tone, which I could hear quite well. It was working! At this point I was getting so close to the finished receiver that it was starting to feel like it could really work! It was time to connect all of the pieces together, which consisted of two RF proto-boards and a separate breadboard with the LO clock generator. 
 
 ![final_receiver](https://github.com/user-attachments/assets/c6bc2d10-5629-4c48-8d1a-0fc4139c71d3)
 
@@ -137,5 +133,12 @@ The next step was to see just how well it worked. I tuned around the FM band in 
 
 ![receiver_comparison](https://github.com/user-attachments/assets/3deed4f1-4853-450a-9688-0b682fb3e2ce)
 
+### Known Limitations and Next Steps
 
+As described in the "Receiver Performance" video, there are a few known limitations in this initial design. Unlike the video series, I don't have a very strong blocking radio signal nearby that is causing issues for nearby, weaker stations. I believe that most of my limitations come from: 
+-Low(ish) gain on the RF front-end amplifier (I only have about 11 dB of gain)
+-Not great impedance matching (I didn't implement a matching network between the LNA output and the mixer, nor between the mixer and IF filter)
+-Single stage IF amplifier (Like the series, I only implemented a single stage of the IF amplifier with ~40dB of gain)
+
+I might take a crack at improving my FM receiver in the future, but overall I am very happy with this initial prototype. I learned so much from watching the video series, but the bulk of my learning definitely came from building, testing, and trouble-shooting. 
 
