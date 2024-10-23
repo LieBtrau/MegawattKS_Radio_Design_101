@@ -136,9 +136,9 @@ The next step was to see just how well it worked. I tuned around the FM band in 
 ### Known Limitations and Next Steps
 
 As described in the "Receiver Performance" video, there are a few known limitations in this initial design. Unlike the video series, I don't have a very strong blocking radio signal nearby that is causing issues for nearby, weaker stations. I believe that most of my limitations come from: 
--Low(ish) gain on the RF front-end amplifier (I only have about 11 dB of gain)
--Not great impedance matching (I didn't implement a matching network between the LNA output and the mixer, nor between the mixer and IF filter)
--Single stage IF amplifier (Like the series, I only implemented a single stage of the IF amplifier with ~40dB of gain)
+1. Low(ish) gain on the RF front-end amplifier (I only have about 11 dB of gain)
+2. Not great impedance matching (I didn't implement a matching network between the LNA output and the mixer, nor between the mixer and IF filter)
+3. Single stage IF amplifier (Like the series, I only implemented a single stage of the IF amplifier with ~40dB of gain)
 
 I might take a crack at improving my FM receiver in the future, but overall I am very happy with this initial prototype. I learned so much from watching the video series, but the bulk of my learning definitely came from building, testing, and trouble-shooting. 
 
