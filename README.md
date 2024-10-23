@@ -115,5 +115,18 @@ The next step of the process was to build the FM demodulator. I implemented the 
 
 ![classic_FM_demod](https://github.com/user-attachments/assets/fd58d572-3f7a-4dc2-a5ea-9cfcefce81ef)
 
-For the inductor, I used a Coilcraft. 
+For the inductor, I used a Coilcraft 143-09J12S, which has a variable inductance from 315 nH to 423 nH. Here is my phase shifter hooked up to the output of the IF amplifier, as well as the TinySA which I used for testing. 
+
+![phase_shifter](https://github.com/user-attachments/assets/2335e25d-1c0b-496f-b65f-8076d806ba47)
+
+For testing, I used a combination of an oscilloscope and a powered speaker set. First, I used the oscilloscope to adjust the value of the tuning inductor until I saw the maximum amplitude sine-ish wave that was possible. 
+
+![phase_shifter_scope](https://github.com/user-attachments/assets/e789a544-6ff8-427e-b935-4d732abbb710)
+
+Next, I hooked up my powered speaker set to the output and listened for the 1 KHz tone, which I could hear quite well. It was working! 
+
+https://github.com/user-attachments/assets/2c41fdf8-a8fa-4dbf-b8e8-d15532fe33bb
+
+
+
 
