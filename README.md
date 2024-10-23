@@ -127,6 +127,15 @@ Next, I hooked up my powered speaker set to the output and listened for the 1 KH
 
 https://github.com/user-attachments/assets/2c41fdf8-a8fa-4dbf-b8e8-d15532fe33bb
 
+At this point I was getting so close to the finished receiver that it was starting to feel like it could really work! It was time to connect all of the pieces together, which consisted of two RF proto-boards and a separate breadboard with the LO clock generator. 
+
+![final_receiver](https://github.com/user-attachments/assets/c6bc2d10-5629-4c48-8d1a-0fc4139c71d3)
+
+AND......IT WORKED! I started with one of the strongest radio signals in the area and I was able to hear it! 
+
+The next step was to see just how well it worked. I tuned around the FM band in my area and recorded the signal amplitudes using the TinySA and the same antenna as my FM receiver. I also used my Yaesu FT3D as a comparison FM receiver. And my receiver was succesful in hearing a handful of stations! This was really exciting since I already knew of some limitations in my design, based on the "Receiver Performance" video from Radio Design 101. 
+
+![receiver_comparison](https://github.com/user-attachments/assets/3deed4f1-4853-450a-9688-0b682fb3e2ce)
 
 
 
