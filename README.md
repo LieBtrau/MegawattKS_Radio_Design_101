@@ -142,7 +142,7 @@ As described in the "Receiver Performance" video, there are a few known limitati
 
 I might take a crack at improving my FM receiver in the future, but overall I am very happy with this initial prototype. I learned so much from watching the video series, but the bulk of my learning definitely came from building, testing, and trouble-shooting. 
 
-## First Update
+#### First Update
 
 I decided to try an easy improvement by adding a second stage to the IF amplifier. I also included another filtering stage between the two IF amplifiers, thinking that this might help knock down any strong stations that were close to my desired station. And this improvement nearly doubled the number of stations that I could receive!  So this was an easy way to improve the receiver and I think that the next possible improvement would either be re-designing the LNA or adding the Q-enhanced front-end filter, as described in one of the epilogue episodes from "Radio Design 101". 
 
