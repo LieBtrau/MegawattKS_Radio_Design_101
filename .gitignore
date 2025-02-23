@@ -1,0 +1,5 @@
+
+# LTSpice Simulation Files
+*.log
+*.plt
+*.raw
