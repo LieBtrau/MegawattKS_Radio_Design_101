@@ -56,6 +56,8 @@
 | | 107.6 | 🔴, 11 | 🔴 | |
 | RLM Radio| 107.9 | | 🔴 | 🔴|
 
+The Tesla Model 3 radio switches over to DAB or an alternative frequency as it sees fit.  It's hard to be certain on what frequency the radio is actually receiving.
+
 * 🟢 : Perfect quality + RDS decoded
 * 🟡 : good quality, no audible noise
 * 🟠 : acceptable, audible noise but tolerable
