@@ -1,5 +1,8 @@
 
 # LTSpice Simulation Files
+*.fft
+*.imp
 *.log
 *.plt
 *.raw
+exclude/
