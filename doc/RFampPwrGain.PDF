@@ -1,0 +1,364 @@
+%PDF-1.2 
+%‚„œ”
+ 
+16 0 obj
+<<
+/Length 17 0 R
+>>
+stream
+BT228.12 706.56  TD0 0 0 rg /F0 14.04  Tf-0.0577  Tc 0  Tw (RF) Tj18.6 0  TD 0.0208  Tc -0.0508  Tw ( Amplifier Power Gain) Tj-174.72 -42.72  TD /F1 12  Tf-0.0196  Tc 0.0196  Tw (In radio frequency circuits, the power gain of an amplifier is often more important than the) Tj0 -14.16  TD -0.0104  Tc 0.0104  Tw (voltage gain.  This paper covers calculation of power gain, and provides examples to illustrate) TjT* 0.0045  Tc -0.0045  Tw (important points.) Tj0 -46.08  TD /F2 12  Tf0.0032  Tc -0.0032  Tw (Transducer Power Gain) Tj0 -31.68  TD /F1 12  Tf-0.0159  Tc 0.0159  Tw (The most commonly used definition of power gain is the so-called transducer gain ) Tj397.2 0  TD -0.024  Tc 0  Tw (G) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0526  Tc (T) Tj4.2 1.2  TD /F1 12  Tf-0.012  Tc 0.012  Tw ( defined as:) Tj-204 -31.44  TD /F3 13.92  Tf0.0298  Tc 0  Tw (G) Tj10.92 -1.68  TD /F3 9  Tf0.036  Tc (T) Tj9.24 1.68  TD /F4 13.92  Tf0.0379  Tc (=) Tj13.92 8.28  TD /F3 9  Tf0.021  Tc (P) Tj6.12 -1.68  TD /F3 6.96  Tf-0.0149  Tc (t) Tj1.8 0  TD 0  Tc (o) Tj3.6 0  TD (a) Tj3.48 0  TD (d) Tj-15.72 -9.84  TD /F3 9  Tf0.021  Tc (P) Tj6 -1.68  TD /F3 6.96  Tf0  Tc (a) Tj3.6 0  TD 0.0298  Tc (v) Tj3 0  TD 0  Tc (a) Tj3.6 0  TD -0.0149  Tc (i) Tj1.8 0  TD (l) TjET0.72 w 1 J 1 j 0 0 0 RG 310.44 531.24 m 332.76 531.24 l S BT72 495.84  TD/F1 12  Tf-0.0312  Tc 0.0312  Tw (where ) Tj32.16 0  TD 0.048  Tc 0  Tw (P) Tj6.72 -1.2  TD /F1 6.96  Tf-0.0263  Tc (load) Tj11.88 1.2  TD /F1 12  Tf-0.0164  Tc 0.0164  Tw ( is the power delivered to the load by the amplifier, and ) Tj268.2 0  TD 0.048  Tc 0  Tw (P) Tj6.72 -1.2  TD /F1 6.96  Tf-0.066  Tc (avail) Tj13.2 1.2  TD /F1 12  Tf-0.0051  Tc 0.0051  Tw ( is the power available) Tj-338.88 -14.16  TD -0.0142  Tc 0.0142  Tw (from the source.  The latter is the same as the power delivered to the amplifier input by the) Tj0 -14.16  TD -0.0079  Tc 0.0079  Tw (source under the condition that the amplifier input impedance is matched to the source) TjT* -0.016  Tc 0  Tw (impedance) TjT* -0.012  Tc 0.012  Tw (\(i.e. ) Tj21.6 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf-0.0149  Tc (i) Tj1.8 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0.0526  Tc (s) Tj2.76 1.2  TD /F1 12  Tf-0.0233  Tc 0.0233  Tw ( for the case of real ) Tj94.92 0  TD -0.012  Tc 0  Tw (impedances,) Tj59.52 0  TD -0.018  Tc 0.018  Tw ( or ) Tj15.96 0  TD -0.012  Tc 0  Tw (Z) Tj7.2 -1.2  TD /F1 6.96  Tf-0.0149  Tc (i) Tj1.8 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.012  Tc 0  Tw (Z) Tj7.2 4.44  TD /F1 6.96  Tf0  Tc (*) Tj3.24 -5.64  TD 0.0526  Tc (s) Tj2.76 1.2  TD /F1 12  Tf-0.006  Tc 0.03  Tw ( when working with complex ) Tj143.52 0  TD -0.014  Tc 0  Tw (impedances\).) Tj-403.8 -28.32  TD -0.0085  Tc 0.0085  Tw (Assuming matched resistive ) Tj138.12 0  TD -0.0132  Tc 0  Tw (impedances) Tj56.52 0  TD 0  Tc ( ) Tj3 0  TD -0.06  Tc (\(R) Tj12 -1.2  TD /F1 6.96  Tf-0.0149  Tc (i) Tj1.8 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0.0526  Tc (s) Tj2.76 1.2  TD /F1 12  Tf-0.018  Tc (\),) Tj6.96 0  TD -0.0158  Tc 0.0158  Tw ( the power available \(power delivered to a) Tj-241.92 -14.16  TD -0.0094  Tc 0.0094  Tw (matched amplifier input\) can be written as:) Tj171.96 -34.44  TD /F3 13.92  Tf0.0149  Tc 0  Tw (P) Tj9.36 -1.56  TD /F3 9  Tf0.06  Tc (a) Tj4.44 0  TD -0.036  Tc (v) Tj3.96 0  TD 0.06  Tc (a) Tj4.56 0  TD 0.018  Tc (i) Tj2.52 0  TD (l) Tj6.72 1.56  TD /F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F3 13.92  Tf0.0149  Tc (P) Tj9.36 -1.56  TD /F3 9  Tf0.018  Tc (i) Tj2.52 0  TD 0.06  Tc (n) Tj4.56 0  TD /F4 9  Tf-0.021  Tc (-) Tj4.8 0  TD /F3 9  Tf-0.018  Tc (m) Tj6.6 0  TD 0.06  Tc (a) Tj4.44 0  TD 0.018  Tc (t) Tj2.52 0  TD -0.036  Tc (c) Tj3.96 0  TD 0.06  Tc (h) Tj4.56 0  TD -0.036  Tc (e) Tj3.96 0  TD 0.06  Tc (d) Tj8.76 1.56  TD /F4 13.92  Tf0.0379  Tc (=) Tj13.2 9.24  TD /F3 9  Tf0.021  Tc (V) Tj6 -2.64  TD /F3 6.96  Tf-0.0149  Tc (i) Tj0 6  TD /F1 6.96  Tf0  Tc (2) Tj-5.16 -15.84  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.56  TD /F3 6.96  Tf-0.0149  Tc (i) TjET354.96 367.2 m 366.84 367.2 l S BT72 332.04  TD/F1 12  Tf-0.0182  Tc 0.0182  Tw (The power delivered by the amplifier's output to a load resistance ) Tj316.08 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf-0.0526  Tc (L) Tj4.08 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( \(which may or may not be) Tj-328.2 -14.16  TD -0.0098  Tc 0.0098  Tw (matched to the amplifier's output resistance ) Tj211.08 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0  Tc (o) Tj3.48 1.2  TD /F1 12  Tf-0.036  Tc (\)) Tj3.96 0  TD 0.02  Tc -0.02  Tw ( is:) Tj-20.16 -34.32  TD /F3 13.92  Tf0.0149  Tc 0  Tw (P) Tj9.36 -1.68  TD /F3 9  Tf0.018  Tc (l) Tj2.4 0  TD 0.06  Tc (o) Tj4.56 0  TD (a) Tj4.56 0  TD (d) Tj8.88 1.68  TD /F4 13.92  Tf0.0379  Tc (=) Tj13.08 9  TD /F3 9  Tf0.021  Tc (V) Tj6.12 -2.4  TD /F3 6.96  Tf-0.0298  Tc (L) Tj0 5.76  TD /F1 6.96  Tf0  Tc (2) Tj-6.12 -15.6  TD /F3 9  Tf0.021  Tc (R) Tj6.12 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) TjET320.28 288.48 m 332.64 288.48 l S BT72 253.56  TD/F1 12  Tf-0.0023  Tc 0.0023  Tw (Combining these two expressions, we find:) Tj181.2 -34.32  TD /F3 13.92  Tf0.0298  Tc 0  Tw (G) Tj10.92 -1.68  TD /F3 9  Tf0.036  Tc (T) Tj9.24 1.68  TD /F4 13.92  Tf0.0379  Tc (=) Tj13.2 9  TD /F3 9  Tf0.021  Tc (V) Tj6 -2.4  TD /F3 6.96  Tf-0.0298  Tc (L) Tj0 5.76  TD /F1 6.96  Tf0  Tc (2) Tj4.44 -3.36  TD /F1 9  Tf0.018  Tc (/) Tj2.52 0  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) Tj-17.76 -12.84  TD /F3 9  Tf0.021  Tc (V) Tj6 -2.64  TD /F3 6.96  Tf-0.0149  Tc (i) Tj0 5.88  TD /F1 6.96  Tf0  Tc (2) Tj4.08 -3.24  TD /F1 9  Tf0.018  Tc (/) Tj2.52 0  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.68  TD /F3 6.96  Tf-0.0149  Tc (i) TjET285.6 224.16 m 310.8 224.16 l S BT315.36 219.24  TD/F4 13.92  Tf0.0379  Tc (=) Tj13.2 9  TD /F3 9  Tf0.021  Tc (V) Tj6 -2.4  TD /F3 6.96  Tf-0.0298  Tc (L) Tj0 5.76  TD /F1 6.96  Tf0  Tc (2) Tj-5.88 -17.64  TD /F3 9  Tf0.021  Tc (V) Tj6.12 -2.64  TD /F3 6.96  Tf-0.0149  Tc (i) Tj0 5.88  TD /F1 6.96  Tf0  Tc (2) TjET327.6 224.16 m 339.84 224.16 l S BT347.4 227.4  TD/F3 9  Tf0.021  Tc (R) Tj6 -1.56  TD /F3 6.96  Tf-0.0149  Tc (i) Tj-6.96 -9.84  TD /F3 9  Tf0.021  Tc (R) Tj6.12 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) TjET345.48 224.16 m 357.84 224.16 l S BT72 200.16  TD/F1 12  Tf-0.018  Tc (or) Tj191.52 -17.28  TD /F3 13.92  Tf0.0298  Tc (G) Tj10.92 -1.68  TD /F3 9  Tf0.036  Tc (T) Tj9.24 1.68  TD /F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F3 13.92  Tf0.0149  Tc (A) Tj9.36 -2.64  TD /F3 9  Tf0.021  Tc (V) Tj6 -1.68  TD /F3 6.96  Tf-0.0149  Tc (l) Tj1.92 0  TD 0  Tc (o) Tj3.48 0  TD (a) Tj3.48 0  TD (d) Tj3.6 0  TD 0.0298  Tc (e) Tj3 0  TD 0  Tc (d) Tj-21.48 9.36  TD /F1 9  Tf0.06  Tc (2) Tj32.76 3.12  TD /F3 9  Tf0.021  Tc (R) Tj6.12 -1.68  TD /F3 6.96  Tf-0.0149  Tc (i) Tj-7.08 -9.72  TD /F3 9  Tf0.021  Tc (R) Tj6.12 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) TjET335.04 187.8 m 347.4 187.8 l S BT72 152.76  TD/F1 12  Tf-0.0096  Tc 0.0096  Tw (The maximum power will be delivered to the load by the amplifier if the load is matched to the) Tj0 -14.16  TD -0.0106  Tc 0.0106  Tw (amplifier's output impedance ) Tj142.2 0  TD -0.024  Tc 0  Tw (\(Z) Tj11.16 -1.2  TD /F1 6.96  Tf-0.0526  Tc (L) Tj4.08 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.012  Tc 0  Tw (Z) Tj7.2 -1.2  TD /F1 6.96  Tf0  Tc (o) Tj3.48 5.64  TD (*) Tj3.24 -4.44  TD /F1 12  Tf-0.0181  Tc 0.0181  Tw ( \), or, for the case of purely resistive output and load) Tj-184.08 -14.16  TD -0.012  Tc 0  Tw (impedances,) Tj59.52 0  TD 0  Tc ( ) Tj3 0  TD 0.036  Tc (R) Tj8.04 -1.2  TD /F1 6.96  Tf-0.0526  Tc (L) Tj4.08 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0  Tc (o) Tj3.48 1.2  TD /F1 12  Tf(.) Tj3 0  TD -0.0116  Tc 0.0116  Tw (  Hence, the maximum transducer gain ) Tj188.28 0  TD -0.024  Tc 0  Tw (G) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0694  Tc (Tmax) Tj15.84 1.2  TD /F1 12  Tf-0.02  Tc (occurs) Tj31.2 0  TD -0.0008  Tc 0.0008  Tw ( when the output is) Tj-345.84 -14.16  TD -0.007  Tc 0.007  Tw (matched as well as the input.) TjETendstream
+endobj
+17 0 obj
+8549
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 10 0 R 
+/F3 12 0 R 
+/F4 14 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 16 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 20 0 R
+>>
+stream
+BT279.6 708.84  TD0 0 0 rg /F2 12  Tf0.0147  Tc 0  Tw (Examples:) Tj-207.6 -24.6  TD /F1 12  Tf-0.0098  Tc 0.0098  Tw (Consider the case of a common-base amplifier with g) Tj256.08 -1.2  TD /F1 6.96  Tf-0.0149  Tc 0  Tw (m) Tj5.16 1.2  TD /F1 12  Tf-0.0048  Tc 0.0048  Tw ( = 1/35 ) Tj37.08 0  TD -0.06  Tc 0  Tw (\(R) Tj12 -1.2  TD /F1 6.96  Tf-0.0149  Tc (i) Tj1.8 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.003  Tc 0  Tw (35Ohms\),) Tj47.64 0  TD -0.016  Tc 0.016  Tw ( and ) Tj23.28 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0  Tc (o) Tj3.48 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0.0377  Tc (C) Tj4.68 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( =) Tj-432.72 -14.16  TD -0.0044  Tc 0.0044  Tw (1800 Ohms.  Assume that the input is matched to the source \(i.e. ) Tj313.08 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf-0.0149  Tc (i) Tj1.8 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0.0526  Tc (s) Tj2.76 0  TD 0  Tc 0.06  Tw ( ) Tj1.8 1.2  TD /F1 12  Tf-0.0247  Tc 0.0247  Tw (\). The power gain for) Tj-348.24 -14.16  TD -0.0041  Tc 0.0041  Tw (this amplifier under conditions of various load ) Tj225.48 0  TD -0.0131  Tc 0  Tw (resistances) Tj51.84 0  TD 0  Tc -0  Tw ( is examined below.) Tj-277.32 -31.92  TD /F2 12  Tf0.0068  Tc -0.0068  Tw (Case 1:  High impedance load) Tj0 -31.68  TD /F1 12  Tf-0.0123  Tc 0.0123  Tw (Suppose that the amplifier is hooked to a very high impedance load such as the input to an) Tj0 -14.16  TD -0.0015  Tc 0.0015  Tw (oscilloscope with ) Tj86.64 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf-0.0526  Tc (L) Tj4.08 1.2  TD /F1 12  Tf-0.016  Tc 0.016  Tw ( = 10 ) Tj27.72 0  TD 0.0024  Tc 0  Tw (MOhm.) Tj37.68 0  TD -0.0072  Tc 0.0072  Tw (  Then:) Tj-18.36 -28.32  TD -0.024  Tc 0  Tw (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.031  Tc (Vno-load) Tj26.04 1.2  TD /F1 12  Tf-0.024  Tc 0.024  Tw ( = g) Tj18.6 -1.2  TD /F1 6.96  Tf-0.0149  Tc 0  Tw (m) Tj5.16 1.2  TD /F1 12  Tf0  Tc ( ) Tj3 0  TD 0.036  Tc (R) Tj8.04 -1.2  TD /F1 6.96  Tf0.0298  Tc (c) Tj3.12 1.2  TD /F1 12  Tf-0.0048  Tc 0.0048  Tw ( = 1/35  1800 = 51.43) Tj-218.4 -14.28  TD -0.016  Tc 0  Tw (and) Tj73.68 -16.92  TD 0  Tc (                            ) Tj84 0  TD -0.024  Tc (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0086  Tc (Vloaded) Tj23.52 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.031  Tc (Vno-load) Tj26.04 1.2  TD /F1 12  Tf0  Tc ( ) Tj32.52 0  TD -0.0076  Tc 0.0076  Tw ( = 51.42           \(34.2 ) Tj100.68 0  TD -0.03  Tc 0  Tw (dB\)*) Tj-120.72 7.92  TD /F3 9  Tf0.021  Tc (R) Tj6.12 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) Tj-13.56 -9.84  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) Tj4.44 1.44  TD /F4 9  Tf-0.021  Tc (+) Tj4.92 0  TD /F3 9  Tf0.021  Tc (R) Tj6 -0.96  TD /F3 6.96  Tf0  Tc (o) TjET0.72 w 1 J 1 j 0 0 0 RG 313.2 523.44 m 340.56 523.44 l S BT72 488.52  TD/F1 12  Tf-0.0219  Tc 0.0219  Tw (which is quite healthy.  However, the power gain ) Tj238.08 0  TD -0.024  Tc 0  Tw (G) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0526  Tc (T) Tj4.2 1.2  TD /F1 12  Tf-0.0435  Tc 0.0435  Tw ( is found to be only:) Tj-181.8 -31.32  TD 0  Tc 0  Tw (                       ) Tj69 0  TD -0.024  Tc (G) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0526  Tc (T) Tj4.2 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (A) Tj8.64 4.44  TD /F1 6.96  Tf0  Tc (2) Tj3.48 -5.64  TD -0.0086  Tc (Vloaded) Tj23.52 1.2  TD /F1 12  Tf0  Tc ( ) Tj122.76 0  TD -0.018  Tc 0.018  Tw (          \(-20 ) Tj52.92 0  TD -0.03  Tc 0  Tw (dB\)*) Tj-169.68 8.04  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.68  TD /F3 6.96  Tf-0.0149  Tc (i) Tj-6.96 -9.72  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) TjET275.28 462 m 287.64 462 l S BT292.2 457.08  TD/F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F1 13.92  Tf0  Tc (5) Tj6.96 0  TD (1) Tj6.96 0  TD (.) Tj3.48 0  TD (4) Tj7.8 4.92  TD /F1 9  Tf0.06  Tc (2) Tj13.08 1.68  TD (3) Tj4.56 0  TD (5) Tj-6.84 -10.8  TD (1) Tj4.56 0  TD (0) Tj5.04 2.28  TD /F1 6.96  Tf0  Tc (7) TjET338.28 462 m 353.88 462 l S BT358.44 457.08  TD/F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F1 13.92  Tf0  Tc (0) Tj6.96 0  TD (.) Tj3.48 0  TD (0) Tj6.96 0  TD (1) Tj-315 -33.72  TD /F2 12  Tf0.0038  Tc -0.0038  Tw (Case 2:  Low impedance load) Tj0 -31.56  TD /F1 12  Tf-0.0149  Tc 0.0149  Tw (Now suppose the amplifier output is connected directly to a piece of ) Tj329.76 0  TD 0.042  Tc 0  Tw (RF) Tj14.64 0  TD -0.0018  Tc 0.0018  Tw ( test equipment with a 50) Tj-344.4 -14.16  TD -0.0115  Tc 0.0115  Tw (Ohm input impedance.  The loaded voltage gain is now:) Tj48.48 -30  TD 0  Tc 0  Tw (                                  ) Tj102 0  TD -0.024  Tc (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0086  Tc (Vloaded) Tj23.52 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.031  Tc (Vno-load) Tj26.04 0  TD 0  Tc 0.06  Tw (   ) Tj80.64 1.2  TD /F1 12  Tf-0.009  Tc 0.009  Tw (                     \(2.9 ) Tj84.96 0  TD -0.03  Tc 0  Tw (dB\)*) Tj-146.64 6.6  TD /F1 9  Tf0.06  Tc (5) Tj4.56 0  TD (0) Tj-16.08 -10.08  TD (5) Tj4.56 0  TD (0) Tj4.56 0  TD /F4 9  Tf-0.021  Tc (+) Tj4.8 0  TD /F1 9  Tf0.06  Tc (1) Tj4.56 0  TD (8) Tj4.56 0  TD (0) Tj4.56 0  TD (0) TjET308.4 352.44 m 342.48 352.44 l S BT347.04 347.52  TD/F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F1 13.92  Tf0  Tc (1) Tj6.96 0  TD (.) Tj3.48 0  TD (3) Tj6.96 0  TD (9) Tj-303.6 -29.16  TD /F1 12  Tf-0.0067  Tc 0.0067  Tw (which is quite low.  The power gain in this case is also low:) Tj46.8 -31.32  TD 0  Tc 0  Tw (                               ) Tj93 0  TD -0.024  Tc (G) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0526  Tc (T) Tj4.2 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (V) Tj8.64 4.44  TD /F1 6.96  Tf0  Tc (2) Tj3.48 -5.64  TD -0.0086  Tc (Vloaded) Tj23.52 0  TD 0  Tc 0.06  Tw (   ) Tj120.36 1.2  TD /F1 12  Tf-0.009  Tc 0.009  Tw (                  \(1.3 ) Tj75.96 0  TD -0.03  Tc 0  Tw (dB\)*) Tj-187.92 8.04  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.68  TD /F3 6.96  Tf-0.0149  Tc (i) Tj-6.96 -9.72  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) TjET279.36 291.84 m 291.72 291.84 l S BT296.28 286.92  TD/F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F1 13.92  Tf0  Tc (1) Tj6.96 0  TD (.) Tj3.48 0  TD (3) Tj6.96 0  TD (9) Tj7.8 4.92  TD /F1 9  Tf0.06  Tc (2) Tj10.8 1.68  TD (3) Tj4.56 0  TD (5) Tj-4.56 -10.08  TD (5) Tj4.56 0  TD (0) TjET342.36 291.84 m 353.4 291.84 l S BT357.96 286.92  TD/F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F1 13.92  Tf0  Tc (1) Tj6.96 0  TD (.) Tj3.48 0  TD (3) Tj6.96 0  TD (5) Tj-314.52 -33.6  TD /F2 12  Tf-0.0014  Tc 0.0014  Tw (Case 3:  Matched load) Tj0 -31.68  TD /F1 12  Tf-0.0227  Tc 0.0227  Tw (Finally, suppose that ) Tj102.24 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf0  Tc (o) Tj3.48 1.2  TD /F1 12  Tf-0.0033  Tc 0.0033  Tw ( is matched to ) Tj69.96 0  TD 0.036  Tc 0  Tw (R) Tj8.04 -1.2  TD /F1 6.96  Tf-0.0526  Tc (L) Tj4.08 0  TD 0  Tc 0.06  Tw ( ) Tj1.8 1.2  TD /F1 12  Tf-0.0155  Tc 0.0155  Tw ( \(perhaps using an impedance matching network to) Tj-197.64 -14.16  TD -0.0138  Tc 0.0138  Tw (transform a 50 Ohm load to 1800 Ohms\).  Then, the voltage and power gains are found to be:) Tj39 -30  TD 0  Tc 0  Tw (                        ) Tj72 0  TD -0.024  Tc (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0086  Tc (Vloaded) Tj23.52 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.031  Tc (Vno-load) Tj26.04 0  TD 0  Tc 0.06  Tw (   ) Tj50.76 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (A) Tj8.64 -1.2  TD /F1 6.96  Tf-0.031  Tc (Vno-load) Tj26.04 0  TD 0  Tc 0.06  Tw (    ) Tj15.72 1.2  TD /F1 12  Tf-0.0084  Tc 0.0084  Tw ( = 25.7             \(28.2 ) Tj100.68 0  TD -0.03  Tc 0  Tw (dB\)*) Tj-195.6 6.6  TD /F1 9  Tf0.06  Tc (1) Tj4.56 0  TD (8) Tj4.56 0  TD (0) Tj4.56 0  TD (0) Tj-25.2 -10.08  TD (1) Tj4.56 0  TD (8) Tj4.56 0  TD (0) Tj4.44 0  TD (0) Tj4.56 0  TD /F4 9  Tf-0.021  Tc (+) Tj4.92 0  TD /F1 9  Tf0.06  Tc (1) Tj4.56 0  TD (8) Tj4.56 0  TD (0) Tj4.56 0  TD (0) TjET268.92 182.28 m 312.12 182.28 l S BT369.96 183.96  TD(1) Tj0 -9.96  TD (2) TjET368.88 182.28 m 375.36 182.28 l S BT72 162.36  TD/F1 12  Tf-0.016  Tc (and) Tj39.36 -17.16  TD 0  Tc (                      ) Tj66 0  TD -0.024  Tc (G) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0526  Tc (T) Tj4.2 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (G) Tj8.64 -1.2  TD /F1 6.96  Tf-0.0694  Tc (Tmax) Tj15.84 1.2  TD /F1 12  Tf-0.048  Tc 0.048  Tw ( = ) Tj12.72 0  TD -0.024  Tc 0  Tw (A) Tj8.64 4.44  TD /F1 6.96  Tf0  Tc (2) Tj3.48 -5.64  TD -0.0086  Tc (Vloaded) Tj23.52 1.2  TD /F1 12  Tf0  Tc ( ) Tj134.04 0  TD -0.012  Tc 0.012  Tw (                \(11 ) Tj66.96 0  TD -0.03  Tc 0  Tw (dB\)*) Tj-195 8.04  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.68  TD /F3 6.96  Tf-0.0149  Tc (i) Tj-6.96 -9.72  TD /F3 9  Tf0.021  Tc (R) Tj6 -1.44  TD /F3 6.96  Tf-0.0298  Tc (L) TjET279.72 150 m 292.08 150 l S BT296.64 145.08  TD/F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F1 13.92  Tf0  Tc (2) Tj6.96 0  TD (5) Tj6.96 0  TD (.) Tj3.48 0  TD (7) Tj7.8 4.92  TD /F1 9  Tf0.06  Tc (2) Tj15.36 1.68  TD (3) Tj4.56 0  TD (5) Tj-9.12 -10.08  TD (1) Tj4.56 0  TD (8) Tj4.56 0  TD (0) Tj4.44 0  TD (0) TjET342.72 150 m 362.88 150 l S BT367.44 145.08  TD/F4 13.92  Tf0.0379  Tc (=) Tj11.16 0  TD /F1 13.92  Tf0  Tc (1) Tj6.96 0  TD (2) Tj6.96 0  TD (.) Tj3.48 0  TD (8) Tj6.96 0  TD (6) Tj-330.96 -41.28  TD /F1 9  Tf-0.0049  Tc 0.0249  Tw (* Recall that voltage gain in dB is defined as 20 log ) Tj188.64 0  TD -0.0075  Tc 0  Tw (\(A) Tj9.36 -0.84  TD /F1 5.28  Tf0.0278  Tc (V) Tj3.72 0.84  TD /F1 9  Tf0.003  Tc (\)) Tj3 0  TD 0.0124  Tc 0.0043  Tw ( and power gain in dB is 10 log ) Tj115.8 0  TD -0.0084  Tc 0  Tw (\(Gp\).) Tj-320.52 -10.56  TD 0.0022  Tc 0.0278  Tw (   The two are equal if and only if the input impedance equals the output impedance, which is not true here.) TjETendstream
+endobj
+20 0 obj
+10572
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F1 8 0 R 
+/F2 10 0 R 
+/F3 12 0 R 
+/F4 14 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 19 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 555 500 500 1000 833 278 333 333 500 570 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 
+500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 
+778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 
+500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 
+500 556 556 444 389 333 556 500 722 500 500 444 394 220 394 520 
+778 500 778 333 500 500 1000 500 500 333 1000 556 333 1000 778 778 
+778 778 333 333 500 500 350 500 1000 333 1000 389 333 722 778 778 
+722 250 333 500 500 500 500 220 500 333 747 300 500 570 333 747 
+500 400 549 300 300 333 576 540 250 333 300 330 500 750 750 750 
+500 722 722 722 722 722 722 1000 722 667 667 667 667 389 389 389 
+389 722 722 778 778 778 778 778 570 778 722 722 722 722 722 611 
+556 500 500 500 500 500 500 722 444 444 444 444 444 278 278 278 
+278 500 556 500 500 500 500 500 549 500 556 556 556 556 500 556 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,Bold
+/Flags 16418
+/FontBBox [ -250 -222 1200 915 ]
+/MissingWidth 778
+/StemV 136
+/StemH 136
+/ItalicAngle 0
+/CapHeight 915
+/XHeight 640
+/Ascent 915
+/Descent -222
+/Leading 180
+/MaxWidth 1000
+/AvgWidth 427
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 889 778 778 
+778 778 333 333 444 444 350 500 1000 333 980 389 333 722 778 778 
+722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 
+500 400 549 300 300 333 576 453 250 333 300 310 500 750 750 750 
+444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 
+333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 
+500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -240 1200 900 ]
+/MissingWidth 780
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 900
+/XHeight 630
+/Ascent 900
+/Descent -240
+/Leading 180
+/MaxWidth 1000
+/AvgWidth 400
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /TimesNewRoman,BoldItalic
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 389 555 500 500 833 778 278 333 333 500 570 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 
+500 832 667 667 667 722 667 667 722 778 389 500 667 611 889 722 
+722 611 722 667 556 611 722 667 889 667 611 611 333 278 333 570 
+500 333 500 500 444 500 444 333 500 556 278 278 500 278 778 556 
+500 500 500 389 389 278 556 444 667 500 444 389 348 220 348 570 
+778 500 778 333 500 500 1000 500 500 333 1000 556 333 944 778 778 
+778 778 333 333 500 500 350 500 1000 333 1000 389 333 722 778 778 
+611 250 389 500 500 500 500 220 500 333 747 266 500 606 333 747 
+500 400 549 300 300 333 576 500 250 333 300 300 500 750 750 750 
+500 667 667 667 667 667 667 944 667 667 667 667 667 389 389 389 
+389 722 722 722 722 722 722 722 570 722 722 722 722 722 611 611 
+500 500 500 500 500 500 500 722 444 444 444 444 444 278 278 278 
+278 500 556 500 500 500 500 500 549 500 556 556 556 556 444 500 
+444 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,BoldItalic
+/Flags 16482
+/FontBBox [ -250 -220 1212 900 ]
+/MissingWidth 780
+/StemV 131
+/StemH 131
+/ItalicAngle -11
+/CapHeight 900
+/XHeight 630
+/Ascent 900
+/Descent -220
+/Leading 160
+/MaxWidth 1010
+/AvgWidth 410
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F3
+/BaseFont /TimesNewRoman,Italic
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 420 500 500 833 778 214 333 333 500 675 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 675 675 675 
+500 920 611 611 667 722 611 611 722 722 333 444 667 556 833 667 
+722 611 722 611 500 556 722 611 833 611 556 556 389 278 389 422 
+500 333 500 500 444 500 444 278 500 500 278 278 444 278 722 500 
+500 500 500 389 389 278 500 444 667 444 444 389 400 275 400 541 
+778 500 778 333 500 556 889 500 500 333 1000 500 333 944 778 778 
+778 778 333 333 556 556 350 500 889 333 980 389 333 667 778 778 
+556 250 389 500 500 500 500 275 500 333 760 276 500 675 333 760 
+500 400 549 300 300 333 576 523 250 333 300 310 500 750 750 750 
+500 611 611 611 611 611 611 889 667 611 611 611 611 333 333 333 
+333 722 667 722 722 722 722 722 675 722 722 722 722 722 556 611 
+500 500 500 500 500 500 500 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 444 500 
+444 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,Italic
+/Flags 98
+/FontBBox [ -250 -241 1180 888 ]
+/MissingWidth 776
+/StemV 73
+/StemH 73
+/ItalicAngle -11
+/CapHeight 888
+/XHeight 621
+/Ascent 888
+/Descent -241
+/Leading 172
+/MaxWidth 983
+/AvgWidth 405
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F4
+/BaseFont /Symbol
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 250 333 713 500 549 833 778 439 333 333 500 549 250 549 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 549 549 549 
+444 549 722 667 722 612 611 763 603 722 333 631 722 686 889 722 
+722 768 741 556 592 611 690 439 768 645 795 611 333 863 333 658 
+500 500 631 549 549 494 439 521 411 603 329 603 549 549 576 521 
+549 549 521 549 603 439 576 713 686 493 686 494 480 200 480 549 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 620 247 549 167 713 500 753 753 753 753 1042 987 603 987 
+603 400 549 411 549 549 713 494 460 549 549 549 549 1000 603 1000 
+658 823 686 795 987 768 768 823 768 768 713 713 713 713 713 713 
+713 768 713 790 790 890 823 549 250 713 603 603 1042 987 603 987 
+603 494 329 790 790 786 713 384 384 384 384 384 384 494 494 494 
+494 600 329 274 686 686 686 384 384 384 384 384 384 494 494 494 
+600 ]
+/FontDescriptor 15 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Symbol
+/Flags 6
+/FontBBox [ -250 -216 1252 1000 ]
+/MissingWidth 603
+/StemV 110
+/StemH 110
+/ItalicAngle 0
+/CapHeight 1000
+/XHeight 700
+/Ascent 1000
+/Descent -216
+/Leading 216
+/MaxWidth 1043
+/AvgWidth 603
+>>
+endobj
+2 0 obj
+[ /PDF /Text  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 18 0 R ]
+/Count 2
+/Type /Pages
+/MediaBox [ 0 0 612 792 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF0057006F00720064002000500072006F0020>
+/CreationDate (D:20030904160101)
+/Title <FEFF005200460061006D0070005000770072004700610069006E002E005000440046>
+/Producer (Acrobat PDFWriter 4.05 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 5 0 R
+/Type /Catalog
+/DefaultGray 21 0 R
+/DefaultRGB  22 0 R
+>>
+endobj
+21 0 obj
+[/CalGray
+<<
+/WhitePoint [0.9505 1 1.0891 ]
+/Gamma 0.2468 
+>>
+]
+endobj
+22 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9505 1 1.0891 ]
+/Gamma [0.2468 0.2468 0.2468 ]
+/Matrix [0.4361 0.2225 0.0139 0.3851 0.7169 0.0971 0.1431 0.0606 0.7141 ]
+>>
+]
+endobj
+xref
+0 23
+0000000000 65535 f
+0000026831 00000 n
+0000026698 00000 n
+0000027070 00000 n
+0000008655 00000 n
+0000026732 00000 n
+0000019668 00000 n
+0000020798 00000 n
+0000021087 00000 n
+0000022207 00000 n
+0000022486 00000 n
+0000023620 00000 n
+0000023918 00000 n
+0000025045 00000 n
+0000025333 00000 n
+0000026421 00000 n
+0000000021 00000 n
+0000008631 00000 n
+0000019496 00000 n
+0000008838 00000 n
+0000019471 00000 n
+0000027167 00000 n
+0000027255 00000 n
+trailer
+<<
+/Size 23
+/Root 3 0 R
+/Info 1 0 R
+/ID [<b5931f64d7901ab18054d3232969a80b><b5931f64d7901ab18054d3232969a80b>]
+>>
+startxref
+27433
+%%EOF
