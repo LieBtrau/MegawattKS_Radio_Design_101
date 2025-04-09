@@ -82,7 +82,7 @@ UniqueId=63d8dd66-8476-4519-8989-47be45e7502c
 Description=A
 AllowFabrication=0
 ParameterCount=0
-VariationCount=33
+VariationCount=35
 Variation1=Designator=L6|UniqueId=\WHELXVYP|Kind=1|AlternatePart=
 Variation2=Designator=C16|UniqueId=\VCKSFUQM|Kind=1|AlternatePart=
 Variation3=Designator=C15|UniqueId=\LDRYBNQB|Kind=1|AlternatePart=
@@ -168,65 +168,147 @@ ParamVariation26=ParameterName=Value|VariantValue=0
 ParamDesignator26=C14
 ParamVariation27=ParameterName=Voltage Rating|VariantValue=75V
 ParamDesignator27=C14
-Variation32=Designator=C14|UniqueId=\LGUVGSMP|Kind=2|AlternatePart=Jumper 0R <50 mOhm 1A 0603|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=7c7 Engineering|AltLibLink_SymbolReference=CMP-009-00006-26|AltLibLink_DesignItemID=CMP-009-00006-26|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=7c7 Engineering|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=41CACC40-B46A-49C8-84B0-C4D03E8A9A7A|AltLibLink_ItemGUID=ADB62C16-EF20-4ABD-9CF7-4BD21774293A|AltLibLink_RevisionGUID=66b69185-06e5-4747-98c4-cffc5789cee7|AltLibLink_Footprint=0603-R-N|AltLibLink_IsSameFootprint=False
-ParamVariation28=ParameterName=Case/Package|VariantValue=0603
-ParamDesignator28=C14
-ParamVariation29=ParameterName=Comment|VariantValue=Jumper 0R <50 mOhm 1A 0603
-ParamDesignator29=C14
-ParamVariation30=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator30=C14
-ParamVariation31=ParameterName=Current Rating|VariantValue=1A
-ParamDesignator31=C14
-ParamVariation32=ParameterName=Description|VariantValue=Chip Jumper, Thick Film, Jumper, 0603, 100mW, 1A, 0 Ohm, <50 mOhm
-ParamDesignator32=C14
-ParamVariation33=ParameterName=Elements|VariantValue=1
-ParamDesignator33=C14
-ParamVariation34=ParameterName=FLIR Part #|VariantValue=YRES0E-1
-ParamDesignator34=C14
-ParamVariation35=ParameterName=Footprint|VariantValue=0603-R-N
-ParamDesignator35=C14
-ParamVariation36=ParameterName=Ibis Model|VariantValue=
-ParamDesignator36=C14
-ParamVariation37=ParameterName=JLCPCB Part #|VariantValue=C21189
-ParamDesignator37=C14
-ParamVariation38=ParameterName=Library Reference|VariantValue=CMP-009-00006-26
-ParamDesignator38=C14
-ParamVariation39=ParameterName=Max Operating Temperature|VariantValue=155°C
-ParamDesignator39=C14
-ParamVariation40=ParameterName=Min Operating Temperature|VariantValue=-55°C
-ParamDesignator40=C14
-ParamVariation41=ParameterName=Mounting Technology|VariantValue=SMT
-ParamDesignator41=C14
-ParamVariation42=ParameterName=Page Part #|VariantValue=ROQJ0000
-ParamDesignator42=C14
-ParamVariation43=ParameterName=PCB3D|VariantValue=
-ParamDesignator43=C14
-ParamVariation44=ParameterName=Pin Info|VariantValue=
-ParamDesignator44=C14
-ParamVariation45=ParameterName=Pins|VariantValue=2
-ParamDesignator45=C14
-ParamVariation46=ParameterName=Power Rating|VariantValue=100mW
-ParamDesignator46=C14
-ParamVariation47=ParameterName=Resistor Type|VariantValue=Thick Film
-ParamDesignator47=C14
-ParamVariation48=ParameterName=RoHS Compliant|VariantValue=True
-ParamDesignator48=C14
-ParamVariation49=ParameterName=Signal Integrity|VariantValue=
-ParamDesignator49=C14
-ParamVariation50=ParameterName=Simulation|VariantValue=
-ParamDesignator50=C14
-ParamVariation51=ParameterName=Tolerance|VariantValue=50 mOhm
-ParamDesignator51=C14
-ParamVariation52=ParameterName=Usage|VariantValue=Jumper
-ParamDesignator52=C14
-ParamVariation53=ParameterName=Value|VariantValue=0
-ParamDesignator53=C14
-ParamVariation54=ParameterName=Voltage Rating|VariantValue=75V
-ParamDesignator54=C14
+Variation32=Designator=C14|UniqueId=\LGUVGSMP|Kind=0|AlternatePart=
 Variation33=Designator=L4|UniqueId=\KZXLJGYP|Kind=1|AlternatePart=
-ParamVariationCount=54
+Variation34=Designator=R3|UniqueId=\EZEUHJZX|Kind=2|AlternatePart=Resistor 1k +/-1% 50V 0603|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=7c7 Engineering|AltLibLink_SymbolReference=CMP-009-00014-29|AltLibLink_DesignItemID=CMP-009-00014-29|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=7c7 Engineering|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=41CACC40-B46A-49C8-84B0-C4D03E8A9A7A|AltLibLink_ItemGUID=7D2D4ADA-F446-407C-8F01-F0BB757C1106|AltLibLink_RevisionGUID=3c86e7ec-dd52-41b0-ba2f-c40845ee3cdd|AltLibLink_Footprint=0603-R-N|AltLibLink_IsSameFootprint=True
+ParamVariation28=ParameterName=Case/Package|VariantValue=0603
+ParamDesignator28=R3
+ParamVariation29=ParameterName=Comment|VariantValue=Resistor 1k +/-1% 50V 0603
+ParamDesignator29=R3
+ParamVariation30=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator30=R3
+ParamVariation31=ParameterName=Description|VariantValue=Chip Resistor, Thick Film, General Purpose, 0603, 100mW, 50V, 1 kOhm, +/-1%
+ParamDesignator31=R3
+ParamVariation32=ParameterName=Elements|VariantValue=1
+ParamDesignator32=R3
+ParamVariation33=ParameterName=FLIR Part #|VariantValue=YRES1K-1
+ParamDesignator33=R3
+ParamVariation34=ParameterName=Footprint|VariantValue=0603-R-N
+ParamDesignator34=R3
+ParamVariation35=ParameterName=Ibis Model|VariantValue=
+ParamDesignator35=R3
+ParamVariation36=ParameterName=JLCPCB Part #|VariantValue=C21190
+ParamDesignator36=R3
+ParamVariation37=ParameterName=Library Reference|VariantValue=CMP-009-00014-29
+ParamDesignator37=R3
+ParamVariation38=ParameterName=Max Operating Temperature|VariantValue=155°C
+ParamDesignator38=R3
+ParamVariation39=ParameterName=Min Operating Temperature|VariantValue=-55°C
+ParamDesignator39=R3
+ParamVariation40=ParameterName=Mounting Technology|VariantValue=SMT
+ParamDesignator40=R3
+ParamVariation41=ParameterName=Page Part #|VariantValue=ROQF1001
+ParamDesignator41=R3
+ParamVariation42=ParameterName=PCB3D|VariantValue=
+ParamDesignator42=R3
+ParamVariation43=ParameterName=Pin Info|VariantValue=
+ParamDesignator43=R3
+ParamVariation44=ParameterName=Pins|VariantValue=2
+ParamDesignator44=R3
+ParamVariation45=ParameterName=Power Rating|VariantValue=100mW
+ParamDesignator45=R3
+ParamVariation46=ParameterName=Resistor Type|VariantValue=Thick Film
+ParamDesignator46=R3
+ParamVariation47=ParameterName=RoHS Compliant|VariantValue=Yes
+ParamDesignator47=R3
+ParamVariation48=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator48=R3
+ParamVariation49=ParameterName=Simulation|VariantValue=
+ParamDesignator49=R3
+ParamVariation50=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator50=R3
+ParamVariation51=ParameterName=Usage|VariantValue=General Purpose
+ParamDesignator51=R3
+ParamVariation52=ParameterName=Value|VariantValue=1k
+ParamDesignator52=R3
+ParamVariation53=ParameterName=Voltage Rating|VariantValue=50V
+ParamDesignator53=R3
+Variation35=Designator=C4|UniqueId=\OSZMFHTL|Kind=2|AlternatePart=Capacitor 5.6pF +/-0.5pF 100V NP0 0603|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=7c7 Engineering|AltLibLink_SymbolReference=CMP-072-000152-14|AltLibLink_DesignItemID=CMP-072-000152-14|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=7c7 Engineering|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=41CACC40-B46A-49C8-84B0-C4D03E8A9A7A|AltLibLink_ItemGUID=D5F6AE2D-7409-4610-8E0C-596479222DBB|AltLibLink_RevisionGUID=0A326DA2-4625-4A83-8395-86D67AF18F6C|AltLibLink_Footprint=0603-C-L|AltLibLink_IsSameFootprint=True
+ParamVariation54=ParameterName=Capacitor Type|VariantValue=MLCC
+ParamDesignator54=C4
+ParamVariation55=ParameterName=Case/Package|VariantValue=0603
+ParamDesignator55=C4
+ParamVariation56=ParameterName=Comment|VariantValue=Capacitor 5.6pF +/-0.5pF 100V NP0 0603
+ParamDesignator56=C4
+ParamVariation57=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator57=C4
+ParamVariation58=ParameterName=ComponentLink1Description|VariantValue=Website Link
+ParamDesignator58=C4
+ParamVariation59=ParameterName=ComponentLink1URL|VariantValue=https://www.we-online.com/redexpert/article/885012006092?ad
+ParamDesignator59=C4
+ParamVariation60=ParameterName=ComponentLink2Description|VariantValue=Datasheet Link
+ParamDesignator60=C4
+ParamVariation61=ParameterName=ComponentLink2URL|VariantValue=https://www.we-online.com/redexpert/spec/885012006092?ad
+ParamDesignator61=C4
+ParamVariation62=ParameterName=Description|VariantValue=WCAP-CSGP Multilayer Ceramic Chip Capacitor, General Purpose, size 0603, NP0, 5.6pF, 100VDC
+ParamDesignator62=C4
+ParamVariation63=ParameterName=Design Item ID|VariantValue=885012006092
+ParamDesignator63=C4
+ParamVariation64=ParameterName=Dielectric|VariantValue=NP0
+ParamDesignator64=C4
+ParamVariation65=ParameterName=Footprint|VariantValue=0603-C-L
+ParamDesignator65=C4
+ParamVariation66=ParameterName=Height|VariantValue=0.8mm
+ParamDesignator66=C4
+ParamVariation67=ParameterName=Ibis Model|VariantValue=
+ParamDesignator67=C4
+ParamVariation68=ParameterName=Insulation Resistance|VariantValue=10GO
+ParamDesignator68=C4
+ParamVariation69=ParameterName=Length|VariantValue=1.6mm
+ParamDesignator69=C4
+ParamVariation70=ParameterName=Library Reference|VariantValue=CMP-072-000152-14
+ParamDesignator70=C4
+ParamVariation71=ParameterName=Match Code|VariantValue=WCAP-CSGP
+ParamDesignator71=C4
+ParamVariation72=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator72=C4
+ParamVariation73=ParameterName=Min Operating Temperature|VariantValue=-55°C
+ParamDesignator73=C4
+ParamVariation74=ParameterName=Mounting Technology|VariantValue=SMT
+ParamDesignator74=C4
+ParamVariation75=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator75=C4
+ParamVariation76=ParameterName=PCB3D|VariantValue=
+ParamDesignator76=C4
+ParamVariation77=ParameterName=Pin Info|VariantValue=
+ParamDesignator77=C4
+ParamVariation78=ParameterName=Pins|VariantValue=2
+ParamDesignator78=C4
+ParamVariation79=ParameterName=Q Factor|VariantValue=512
+ParamDesignator79=C4
+ParamVariation80=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator80=C4
+ParamVariation81=ParameterName=Simulation|VariantValue=
+ParamDesignator81=C4
+ParamVariation82=ParameterName=Source|VariantValue=WCAP-CSGP.SchLib
+ParamDesignator82=C4
+ParamVariation83=ParameterName=Technical Reference|VariantValue=NP006035R6D100DFCT10000
+ParamDesignator83=C4
+ParamVariation84=ParameterName=Tolerance|VariantValue=0.5pF
+ParamDesignator84=C4
+ParamVariation85=ParameterName=Usage|VariantValue=General Purpose
+ParamDesignator85=C4
+ParamVariation86=ParameterName=Value|VariantValue=5.6pF
+ParamDesignator86=C4
+ParamVariation87=ParameterName=Voltage Rating|VariantValue=100V
+ParamDesignator87=C4
+ParamVariation88=ParameterName=Width|VariantValue=0.8mm
+ParamDesignator88=C4
+ParamVariationCount=88
 
 [Parameter1]
+Name=assembly_revision
+Value=0
+
+[Parameter2]
+Name=board_revision
+Value=1.0
+
+[Parameter3]
+Name=board_name
+Value=LNA
+
+[Parameter4]
 Name=Project_link
 Value=https://github.com/LieBtrau/MegawattKS_Radio_Design_101
 
