@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Assembly.OutJob
 Description=
 TargetOutputMedium=Manufacturing output (BOM and PnP)
 VariantName=A
@@ -67,16 +67,14 @@ Configuration3_Name2=General
 Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1707|FormHeight=1020|SupplierProdQty=3000|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=EUR|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=Comment=True|Footprint=True
-Configuration3_Name4=SortOrder
-Configuration3_Item4=Supplier Part Number 3=Up
-Configuration3_Name5=VisibleOrder
-Configuration3_Item5=Comment=120|Description=120|Designator=120|Quantity=120|Manufacturer 1=100|Manufacturer Part Number 1=164|Supplier 1=100|Supplier Part Number 1=132|Manufacturer 2=100|Manufacturer Part Number 2=255|Supplier 2=100|Supplier Part Number 2=173|Manufacturer 3=100|Manufacturer Part Number 3=205|Supplier 3=100|Fitted=100|Supplier Part Number 3=100
-Configuration3_Name6=VisibleOrder_Base
-Configuration3_Item6=Line #=54|Comment=100|Description=100|Designator=100|Revision ID=79|Revision Status=98|Quantity=67|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=146|Supplier 1=74|Supplier Part Number 1=142|Supplier Unit Price 1=126|Supplier Subtotal 1=120
-Configuration3_Name7=VisibleOrder_Consolidated
-Configuration3_Item7=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision Status=100|Quantity=100|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=146|Supplier 1=74|Supplier Part Number 1=142|Supplier Unit Price 1=126|Supplier Subtotal 1=120|Quantity@A=100|Price@A=100
-Configuration3_Name8=VisibleOrder_Flat
-Configuration3_Item8=Comment=120|Description=120|Designator=120|Quantity=120|Manufacturer 1=100|Manufacturer Part Number 1=164|Supplier 1=100|Supplier Part Number 1=132|Manufacturer 2=100|Manufacturer Part Number 2=255|Supplier 2=100|Supplier Part Number 2=173|Manufacturer 3=100|Manufacturer Part Number 3=205|Supplier 3=100|Fitted=100|Supplier Part Number 3=100
+Configuration3_Name4=VisibleOrder
+Configuration3_Item4=Comment=120|Description=120|Designator=120|Quantity=120|Manufacturer 1=100|Manufacturer Part Number 1=164|Supplier 1=123|Supplier Part Number 1=132
+Configuration3_Name5=VisibleOrder_Base
+Configuration3_Item5=Line #=54|Comment=100|Description=100|Designator=100|Revision ID=79|Revision Status=98|Quantity=67|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=146|Supplier 1=74|Supplier Part Number 1=142|Supplier Unit Price 1=126|Supplier Subtotal 1=120
+Configuration3_Name6=VisibleOrder_Consolidated
+Configuration3_Item6=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision Status=100|Quantity=100|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=146|Supplier 1=74|Supplier Part Number 1=142|Supplier Unit Price 1=126|Supplier Subtotal 1=120|Quantity@A=100|Price@A=100
+Configuration3_Name7=VisibleOrder_Flat
+Configuration3_Item7=Comment=120|Description=120|Designator=120|Quantity=120|Manufacturer 1=100|Manufacturer Part Number 1=164|Supplier 1=123|Supplier Part Number 1=132
 OutputType4=BOM_PartType
 OutputName4=BoM_JLCPCB
 OutputCategory4=Report

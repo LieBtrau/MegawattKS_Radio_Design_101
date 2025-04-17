@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=B
 
 [Preferences]
 PrefsVaultGUID=
@@ -67,7 +68,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WKYEMNAT
 
 [Document2]
-DocumentPath=LNA.OutJob
+DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -155,18 +156,22 @@ DocumentUniqueId=
 UniqueId=37f21b30-7669-4940-8446-89820b59fa17
 Description=B
 AllowFabrication=0
-ParameterCount=0
+ParameterCount=1
 VariationCount=2
 Variation1=Designator=L7|UniqueId=\NAXXAAWD|Kind=1|AlternatePart=
 Variation2=Designator=R17|UniqueId=\HNTMMFQO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
+[Parameter2_1]
+Name=VariantDescription
+Value=Q Enhanced LNA
+
 [ProjectVariant2]
 UniqueId=63d8dd66-8476-4519-8989-47be45e7502c
 Description=A
 AllowFabrication=0
-ParameterCount=0
-VariationCount=30
+ParameterCount=1
+VariationCount=31
 Variation1=Designator=L6|UniqueId=\WHELXVYP|Kind=1|AlternatePart=
 Variation2=Designator=C16|UniqueId=\VCKSFUQM|Kind=1|AlternatePart=
 Variation3=Designator=C15|UniqueId=\LDRYBNQB|Kind=1|AlternatePart=
@@ -249,7 +254,12 @@ ParamVariation25=ParameterName=Value|VariantValue=1k
 ParamDesignator25=R3
 ParamVariation26=ParameterName=Voltage Rating|VariantValue=50V
 ParamDesignator26=R3
+Variation31=Designator=D3|UniqueId=\VQTJULGW|Kind=1|AlternatePart=
 ParamVariationCount=26
+
+[Parameter3_1]
+Name=VariantDescription
+Value=20MHz wide LNA
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for LNA\Design Rule Check - LNA.html
