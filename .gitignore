@@ -6,3 +6,4 @@
 *.plt
 *.raw
 exclude/
+Project Outputs*/
