@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=B
+CurrentVariant=A
 
 [Preferences]
 PrefsVaultGUID=
@@ -157,9 +157,15 @@ UniqueId=37f21b30-7669-4940-8446-89820b59fa17
 Description=B
 AllowFabrication=0
 ParameterCount=1
-VariationCount=2
+VariationCount=8
 Variation1=Designator=L7|UniqueId=\NAXXAAWD|Kind=1|AlternatePart=
 Variation2=Designator=R17|UniqueId=\HNTMMFQO|Kind=1|AlternatePart=
+Variation3=Designator=R22|UniqueId=\VXAWLRJI|Kind=0|AlternatePart=
+Variation4=Designator=R24|UniqueId=\DRKTCITP|Kind=0|AlternatePart=
+Variation5=Designator=J6|UniqueId=\FGJPPWRU|Kind=1|AlternatePart=
+Variation6=Designator=R12|UniqueId=\JFPGZHXK|Kind=1|AlternatePart=
+Variation7=Designator=R25|UniqueId=\OQAQFEIV|Kind=1|AlternatePart=
+Variation8=Designator=J7|UniqueId=\QSHZWDZE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter2_1]
@@ -171,7 +177,7 @@ UniqueId=63d8dd66-8476-4519-8989-47be45e7502c
 Description=A
 AllowFabrication=0
 ParameterCount=1
-VariationCount=31
+VariationCount=40
 Variation1=Designator=L6|UniqueId=\WHELXVYP|Kind=1|AlternatePart=
 Variation2=Designator=C16|UniqueId=\VCKSFUQM|Kind=1|AlternatePart=
 Variation3=Designator=C15|UniqueId=\LDRYBNQB|Kind=1|AlternatePart=
@@ -255,6 +261,15 @@ ParamDesignator25=R3
 ParamVariation26=ParameterName=Voltage Rating|VariantValue=50V
 ParamDesignator26=R3
 Variation31=Designator=D3|UniqueId=\VQTJULGW|Kind=1|AlternatePart=
+Variation32=Designator=R22|UniqueId=\VXAWLRJI|Kind=1|AlternatePart=
+Variation33=Designator=R26|UniqueId=\YAYSWAUB|Kind=1|AlternatePart=
+Variation34=Designator=R24|UniqueId=\DRKTCITP|Kind=1|AlternatePart=
+Variation35=Designator=R12|UniqueId=\JFPGZHXK|Kind=1|AlternatePart=
+Variation36=Designator=J6|UniqueId=\FGJPPWRU|Kind=1|AlternatePart=
+Variation37=Designator=R25|UniqueId=\OQAQFEIV|Kind=1|AlternatePart=
+Variation38=Designator=J7|UniqueId=\QSHZWDZE|Kind=1|AlternatePart=
+Variation39=Designator=J8|UniqueId=\TWDVGHMN|Kind=1|AlternatePart=
+Variation40=Designator=R27|UniqueId=\QMEATHSH|Kind=1|AlternatePart=
 ParamVariationCount=26
 
 [Parameter3_1]
