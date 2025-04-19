@@ -157,15 +157,13 @@ UniqueId=37f21b30-7669-4940-8446-89820b59fa17
 Description=B
 AllowFabrication=0
 ParameterCount=1
-VariationCount=8
+VariationCount=6
 Variation1=Designator=L7|UniqueId=\NAXXAAWD|Kind=1|AlternatePart=
 Variation2=Designator=R17|UniqueId=\HNTMMFQO|Kind=1|AlternatePart=
-Variation3=Designator=R22|UniqueId=\VXAWLRJI|Kind=0|AlternatePart=
-Variation4=Designator=R24|UniqueId=\DRKTCITP|Kind=0|AlternatePart=
-Variation5=Designator=J6|UniqueId=\FGJPPWRU|Kind=1|AlternatePart=
-Variation6=Designator=R12|UniqueId=\JFPGZHXK|Kind=1|AlternatePart=
-Variation7=Designator=R25|UniqueId=\OQAQFEIV|Kind=1|AlternatePart=
-Variation8=Designator=J7|UniqueId=\QSHZWDZE|Kind=1|AlternatePart=
+Variation3=Designator=J6|UniqueId=\FGJPPWRU|Kind=1|AlternatePart=
+Variation4=Designator=R12|UniqueId=\JFPGZHXK|Kind=1|AlternatePart=
+Variation5=Designator=R25|UniqueId=\OQAQFEIV|Kind=1|AlternatePart=
+Variation6=Designator=J7|UniqueId=\QSHZWDZE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter2_1]
@@ -177,7 +175,7 @@ UniqueId=63d8dd66-8476-4519-8989-47be45e7502c
 Description=A
 AllowFabrication=0
 ParameterCount=1
-VariationCount=40
+VariationCount=38
 Variation1=Designator=L6|UniqueId=\WHELXVYP|Kind=1|AlternatePart=
 Variation2=Designator=C16|UniqueId=\VCKSFUQM|Kind=1|AlternatePart=
 Variation3=Designator=C15|UniqueId=\LDRYBNQB|Kind=1|AlternatePart=
@@ -200,14 +198,12 @@ Variation19=Designator=D1|UniqueId=\KXXHFKOK|Kind=1|AlternatePart=
 Variation20=Designator=FB2|UniqueId=\OCTXLOAN|Kind=1|AlternatePart=
 Variation21=Designator=R23|UniqueId=\QXVFRFDI|Kind=1|AlternatePart=
 Variation22=Designator=R21|UniqueId=\KQLWVRUI|Kind=1|AlternatePart=
-Variation23=Designator=R22|UniqueId=\JHXWSTXP|Kind=1|AlternatePart=
-Variation24=Designator=R24|UniqueId=\YLISOEZK|Kind=1|AlternatePart=
-Variation25=Designator=C13|UniqueId=\CAIAIFKI|Kind=1|AlternatePart=
-Variation26=Designator=FB1|UniqueId=\ERLXCFZX|Kind=1|AlternatePart=
-Variation27=Designator=R7|UniqueId=\OEKXJFNN|Kind=1|AlternatePart=
-Variation28=Designator=Q2|UniqueId=\EQKUTAAQ|Kind=1|AlternatePart=
-Variation29=Designator=L4|UniqueId=\KZXLJGYP|Kind=1|AlternatePart=
-Variation30=Designator=R3|UniqueId=\EZEUHJZX|Kind=2|AlternatePart=Resistor 1k +/-1% 50V 0603|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=7c7 Engineering|AltLibLink_SymbolReference=RES|AltLibLink_DesignItemID=CMP-009-00014-29|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=7c7 Engineering|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=41CACC40-B46A-49C8-84B0-C4D03E8A9A7A|AltLibLink_ItemGUID=7D2D4ADA-F446-407C-8F01-F0BB757C1106|AltLibLink_RevisionGUID=3c86e7ec-dd52-41b0-ba2f-c40845ee3cdd|AltLibLink_Footprint=0603-R-N|AltLibLink_IsSameFootprint=True
+Variation23=Designator=C13|UniqueId=\CAIAIFKI|Kind=1|AlternatePart=
+Variation24=Designator=FB1|UniqueId=\ERLXCFZX|Kind=1|AlternatePart=
+Variation25=Designator=R7|UniqueId=\OEKXJFNN|Kind=1|AlternatePart=
+Variation26=Designator=Q2|UniqueId=\EQKUTAAQ|Kind=1|AlternatePart=
+Variation27=Designator=L4|UniqueId=\KZXLJGYP|Kind=1|AlternatePart=
+Variation28=Designator=R3|UniqueId=\EZEUHJZX|Kind=2|AlternatePart=Resistor 1k +/-1% 50V 0603|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=7c7 Engineering|AltLibLink_SymbolReference=RES|AltLibLink_DesignItemID=CMP-009-00014-29|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=7c7 Engineering|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=41CACC40-B46A-49C8-84B0-C4D03E8A9A7A|AltLibLink_ItemGUID=7D2D4ADA-F446-407C-8F01-F0BB757C1106|AltLibLink_RevisionGUID=3c86e7ec-dd52-41b0-ba2f-c40845ee3cdd|AltLibLink_Footprint=0603-R-N|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue=Resistor 1k +/-1% 50V 0603
 ParamDesignator1=R3
 ParamVariation2=ParameterName=Case/Package|VariantValue=0603
@@ -260,16 +256,16 @@ ParamVariation25=ParameterName=Value|VariantValue=1k
 ParamDesignator25=R3
 ParamVariation26=ParameterName=Voltage Rating|VariantValue=50V
 ParamDesignator26=R3
-Variation31=Designator=D3|UniqueId=\VQTJULGW|Kind=1|AlternatePart=
-Variation32=Designator=R22|UniqueId=\VXAWLRJI|Kind=1|AlternatePart=
-Variation33=Designator=R26|UniqueId=\YAYSWAUB|Kind=1|AlternatePart=
-Variation34=Designator=R24|UniqueId=\DRKTCITP|Kind=1|AlternatePart=
-Variation35=Designator=R12|UniqueId=\JFPGZHXK|Kind=1|AlternatePart=
-Variation36=Designator=J6|UniqueId=\FGJPPWRU|Kind=1|AlternatePart=
-Variation37=Designator=R25|UniqueId=\OQAQFEIV|Kind=1|AlternatePart=
-Variation38=Designator=J7|UniqueId=\QSHZWDZE|Kind=1|AlternatePart=
-Variation39=Designator=J8|UniqueId=\TWDVGHMN|Kind=1|AlternatePart=
-Variation40=Designator=R27|UniqueId=\QMEATHSH|Kind=1|AlternatePart=
+Variation29=Designator=D3|UniqueId=\VQTJULGW|Kind=1|AlternatePart=
+Variation30=Designator=R22|UniqueId=\VXAWLRJI|Kind=1|AlternatePart=
+Variation31=Designator=R26|UniqueId=\YAYSWAUB|Kind=1|AlternatePart=
+Variation32=Designator=R24|UniqueId=\DRKTCITP|Kind=1|AlternatePart=
+Variation33=Designator=R12|UniqueId=\JFPGZHXK|Kind=1|AlternatePart=
+Variation34=Designator=J6|UniqueId=\FGJPPWRU|Kind=1|AlternatePart=
+Variation35=Designator=R25|UniqueId=\OQAQFEIV|Kind=1|AlternatePart=
+Variation36=Designator=J7|UniqueId=\QSHZWDZE|Kind=1|AlternatePart=
+Variation37=Designator=J8|UniqueId=\TWDVGHMN|Kind=1|AlternatePart=
+Variation38=Designator=R27|UniqueId=\QMEATHSH|Kind=1|AlternatePart=
 ParamVariationCount=26
 
 [Parameter3_1]
@@ -990,6 +986,13 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
 
 [Difference Levels]
 Type1=1
@@ -1074,6 +1077,10 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
 
 [Electrical Rules Check]
 Type1=1
