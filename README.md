@@ -14,3 +14,7 @@ Instead of a 9V battery, two Li-Ion cells in series will be used.  They'll be re
 ## Project 1: Tuned RF Amplifier and Image Filter 
 * [Filter design](./Filters.ipynb)
 * [Amplifier design](./amplifier.ipynb)
+
+
+# Simple radio receiver
+* [MikroE Superheterodyne FM Receivers](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/superheterodyne-fm-receivers)
