@@ -1,0 +1,44 @@
+* C:\github\MegawattKS_Radio_Design_101\filter\simulation\Preselect_final_values.asc
+V2 N011 0 AC 1 Rser=50
+RL1 N015 0 50
+C4 N013 N012 6.8p
+C5 N014 N013 6.8p
+C6 0 N013 177p
+XL5 N013 0 1008_744762115A
+XL4 N011 N012 1008_744762239A
+XL6 N014 N015 1008_744762239A
+V1 N001 0 AC 1 0 Rser=50.00
+C1 N001 N002 6.494p
+L1 N002 N003 410.4n
+C2 N003 0 182.6p
+L2 N003 0 14.59n
+C3 N003 N004 6.494p
+L3 N004 N005 410.4n
+RL N005 0 50
+V3 N006 0 AC 1 0 Rser=50.00
+C7 N006 N007 6.698p
+L7 N007 N008 397.9n
+C8 N008 0 318.3p
+L8 N008 0 8.373n
+C9 N008 N009 6.698p
+L9 N009 N010 397.9n
+RL2 N010 0 50
+V4 N017 0 AC 1 Rser=50
+RL3 N021 0 50
+C10 N019 N018 6p
+C11 N020 N019 6p
+C12 0 N019 220p
+XL10 N019 0 3136_744913112_12.5n
+XL11 N017 N018 5910_744918242_422n
+XL12 N020 N021 5910_744918242_422n
+.ac dec 1001 50Meg 200Meg
+.net I(RL) V1
+.net I(RL1) V2
+.net I(RL2) V3
+.net I(RL3) V4
+* 3rd Order Chebyshev Bandpass\nConventional, Series First\nLower Cutoff Freq. = 88 MHz; Upper Cutoff Freq. = 108 MHz\nPassband Ripple = 0.10 dB\n\nrf-tools.com | Apr 13 2025 13:20
+* 3rd Order Butterworth Bandpass\nConventional, Series First\nLower Cutoff Freq. = 88 MHz; Upper Cutoff Freq. = 108 MHz\n\n\nrf-tools.com | Apr 13 2025 20:26
+.lib Contrib/Wurth/WE-CAIR.lib
+.lib Contrib/Wurth/WE-KI.lib
+.backanno
+.end
