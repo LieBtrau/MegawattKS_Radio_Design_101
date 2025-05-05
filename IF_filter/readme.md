@@ -1,1 +1,2 @@
-[10.7MHz IF filter module](https://www.amazon.com/gp/product/B09J941VQX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+W.Hayward_Experimental-methods-in-rf-design-radio-amateurs.pdf
+    The Min-Loss Filter of Cohn and other Simplified Forms
