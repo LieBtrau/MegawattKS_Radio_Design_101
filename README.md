@@ -9,7 +9,7 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 </figure>
 
 # Power supply
-Instead of a 9V battery, two Li-Ion cells in series will be used.  They'll be regulated down to 7V.
+5V will be used to power the receiver so that we can keep the design relatively low power.  This unfortunately means limitations on the OIP3 of the amplifiers.  
 
 ## Project 1: Tuned RF Amplifier and Image Filter 
 * [Filter design](./Filters.ipynb)
