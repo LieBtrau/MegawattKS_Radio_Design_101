@@ -1,2 +1,0 @@
-W.Hayward_Experimental-methods-in-rf-design-radio-amateurs.pdf
-* Fig 5.33—A post mixer amplifier using a junction FET. A high I|,,, FET is required such as the J310. See the text for transformer discussion.
