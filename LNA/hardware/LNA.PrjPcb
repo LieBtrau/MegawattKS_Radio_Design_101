@@ -175,7 +175,7 @@ UniqueId=63d8dd66-8476-4519-8989-47be45e7502c
 Description=A
 AllowFabrication=0
 ParameterCount=1
-VariationCount=38
+VariationCount=40
 Variation1=Designator=L6|UniqueId=\WHELXVYP|Kind=1|AlternatePart=
 Variation2=Designator=C16|UniqueId=\VCKSFUQM|Kind=1|AlternatePart=
 Variation3=Designator=C15|UniqueId=\LDRYBNQB|Kind=1|AlternatePart=
@@ -203,59 +203,55 @@ Variation24=Designator=FB1|UniqueId=\ERLXCFZX|Kind=1|AlternatePart=
 Variation25=Designator=R7|UniqueId=\OEKXJFNN|Kind=1|AlternatePart=
 Variation26=Designator=Q2|UniqueId=\EQKUTAAQ|Kind=1|AlternatePart=
 Variation27=Designator=L4|UniqueId=\KZXLJGYP|Kind=1|AlternatePart=
-Variation28=Designator=R3|UniqueId=\EZEUHJZX|Kind=2|AlternatePart=Resistor 1k +/-1% 50V 0603|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=7c7 Engineering|AltLibLink_SymbolReference=RES|AltLibLink_DesignItemID=CMP-009-00014-29|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=7c7 Engineering|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=41CACC40-B46A-49C8-84B0-C4D03E8A9A7A|AltLibLink_ItemGUID=7D2D4ADA-F446-407C-8F01-F0BB757C1106|AltLibLink_RevisionGUID=3c86e7ec-dd52-41b0-ba2f-c40845ee3cdd|AltLibLink_Footprint=0603-R-N|AltLibLink_IsSameFootprint=True
-ParamVariation1=ParameterName=Comment|VariantValue=Resistor 1k +/-1% 50V 0603
+Variation28=Designator=R3|UniqueId=\EZEUHJZX|Kind=2|AlternatePart=Resistor 1.5k +/-1% 50V 0603|AltLibLink_LibIdentifierKind=Vault Name|AltLibLink_LibraryIdentifier=7c7 Engineering|AltLibLink_SymbolReference=CMP-009-00201-21|AltLibLink_DesignItemID=CMP-009-00201-21|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=7c7 Engineering|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=41CACC40-B46A-49C8-84B0-C4D03E8A9A7A|AltLibLink_ItemGUID=1e823a0c-4df5-4d92-9123-51b4a50fd25e|AltLibLink_RevisionGUID=B03A70F9-9CFE-4150-82D8-6D584FAFEEF5|AltLibLink_Footprint=0603-R-N|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=Resistor 1.5k +/-1% 50V 0603
 ParamDesignator1=R3
 ParamVariation2=ParameterName=Case/Package|VariantValue=0603
 ParamDesignator2=R3
 ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator3=R3
-ParamVariation4=ParameterName=Description|VariantValue=Chip Resistor, Thick Film, General Purpose, 0603, 100mW, 50V, 1 kOhm, +/-1%
+ParamVariation4=ParameterName=Description|VariantValue=Chip Resistor, Thick Film, General Purpose, 0603, 100mW, 50V, 1.5 kOhm, +/-1%
 ParamDesignator4=R3
 ParamVariation5=ParameterName=Elements|VariantValue=1
 ParamDesignator5=R3
-ParamVariation6=ParameterName=FLIR Part #|VariantValue=YRES1K-1
+ParamVariation6=ParameterName=Footprint|VariantValue=0603-R-N
 ParamDesignator6=R3
-ParamVariation7=ParameterName=Footprint|VariantValue=0603-R-N
+ParamVariation7=ParameterName=Ibis Model|VariantValue=
 ParamDesignator7=R3
-ParamVariation8=ParameterName=Ibis Model|VariantValue=
+ParamVariation8=ParameterName=JLCPCB Part #|VariantValue=C22843
 ParamDesignator8=R3
-ParamVariation9=ParameterName=JLCPCB Part #|VariantValue=C21190
+ParamVariation9=ParameterName=Library Reference|VariantValue=CMP-009-00201-21
 ParamDesignator9=R3
-ParamVariation10=ParameterName=Library Reference|VariantValue=CMP-009-00014-29
+ParamVariation10=ParameterName=Max Operating Temperature|VariantValue=155°C
 ParamDesignator10=R3
-ParamVariation11=ParameterName=Max Operating Temperature|VariantValue=155°C
+ParamVariation11=ParameterName=Min Operating Temperature|VariantValue=-55°C
 ParamDesignator11=R3
-ParamVariation12=ParameterName=Min Operating Temperature|VariantValue=-55°C
+ParamVariation12=ParameterName=Mounting Technology|VariantValue=SMT
 ParamDesignator12=R3
-ParamVariation13=ParameterName=Mounting Technology|VariantValue=SMT
+ParamVariation13=ParameterName=PCB3D|VariantValue=
 ParamDesignator13=R3
-ParamVariation14=ParameterName=Page Part #|VariantValue=ROQF1001
+ParamVariation14=ParameterName=Pin Info|VariantValue=
 ParamDesignator14=R3
-ParamVariation15=ParameterName=PCB3D|VariantValue=
+ParamVariation15=ParameterName=Pins|VariantValue=2
 ParamDesignator15=R3
-ParamVariation16=ParameterName=Pin Info|VariantValue=
+ParamVariation16=ParameterName=Power Rating|VariantValue=100mW
 ParamDesignator16=R3
-ParamVariation17=ParameterName=Pins|VariantValue=2
+ParamVariation17=ParameterName=Resistor Type|VariantValue=Thick Film
 ParamDesignator17=R3
-ParamVariation18=ParameterName=Power Rating|VariantValue=100mW
+ParamVariation18=ParameterName=RoHS Compliant|VariantValue=Yes
 ParamDesignator18=R3
-ParamVariation19=ParameterName=Resistor Type|VariantValue=Thick Film
+ParamVariation19=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator19=R3
-ParamVariation20=ParameterName=RoHS Compliant|VariantValue=Yes
+ParamVariation20=ParameterName=Simulation|VariantValue=
 ParamDesignator20=R3
-ParamVariation21=ParameterName=Signal Integrity|VariantValue=
+ParamVariation21=ParameterName=Tolerance|VariantValue=1%
 ParamDesignator21=R3
-ParamVariation22=ParameterName=Simulation|VariantValue=
+ParamVariation22=ParameterName=Usage|VariantValue=General Purpose
 ParamDesignator22=R3
-ParamVariation23=ParameterName=Tolerance|VariantValue=1%
+ParamVariation23=ParameterName=Value|VariantValue=1.5k
 ParamDesignator23=R3
-ParamVariation24=ParameterName=Usage|VariantValue=General Purpose
+ParamVariation24=ParameterName=Voltage Rating|VariantValue=50V
 ParamDesignator24=R3
-ParamVariation25=ParameterName=Value|VariantValue=1k
-ParamDesignator25=R3
-ParamVariation26=ParameterName=Voltage Rating|VariantValue=50V
-ParamDesignator26=R3
 Variation29=Designator=D3|UniqueId=\VQTJULGW|Kind=1|AlternatePart=
 Variation30=Designator=R22|UniqueId=\VXAWLRJI|Kind=1|AlternatePart=
 Variation31=Designator=R26|UniqueId=\YAYSWAUB|Kind=1|AlternatePart=
@@ -266,7 +262,9 @@ Variation35=Designator=R25|UniqueId=\OQAQFEIV|Kind=1|AlternatePart=
 Variation36=Designator=J7|UniqueId=\QSHZWDZE|Kind=1|AlternatePart=
 Variation37=Designator=J8|UniqueId=\TWDVGHMN|Kind=1|AlternatePart=
 Variation38=Designator=R27|UniqueId=\QMEATHSH|Kind=1|AlternatePart=
-ParamVariationCount=26
+Variation39=Designator=R11|UniqueId=\SXJVUUSL|Kind=1|AlternatePart=
+Variation40=Designator=C8|UniqueId=\WEKQPRZQ|Kind=1|AlternatePart=
+ParamVariationCount=24
 
 [Parameter3_1]
 Name=VariantDescription
@@ -277,20 +275,20 @@ DocumentPath=Project Outputs for LNA\Design Rule Check - LNA.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=assembly_revision
-Value=0
+Name=Project_link
+Value=https://github.com/LieBtrau/MegawattKS_Radio_Design_101
 
 [Parameter2]
-Name=board_name
-Value=LNA
-
-[Parameter3]
 Name=board_revision
 Value=1.0
 
+[Parameter3]
+Name=board_name
+Value=LNA
+
 [Parameter4]
-Name=Project_link
-Value=https://github.com/LieBtrau/MegawattKS_Radio_Design_101
+Name=assembly_revision
+Value=1
 
 [Configuration1]
 Name=Sources
@@ -993,6 +991,7 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1081,6 +1080,7 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1244,6 +1244,8 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
