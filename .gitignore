@@ -7,3 +7,5 @@
 *.raw
 exclude/
 Project Outputs*/
+History/
+__Previews/
