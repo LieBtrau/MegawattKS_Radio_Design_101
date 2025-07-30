@@ -12,9 +12,11 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 5V will be used to power the receiver so that we can keep the design relatively low power.  This unfortunately means limitations on the OIP3 of the amplifiers.  
 
 ## Project 1: Tuned RF Amplifier and Image Filter 
-* [Filter design](./Filters.ipynb)
-* [Amplifier design](./amplifier.ipynb)
+* [Preselector filter](./preselector_filter/Filters.ipynb)
+* [RF Amplifier](./CB-CC_amplifier/CB-CC_amplifier.ipynb)
 
-
-# Simple radio receiver
+# Other resources
 * [MikroE Superheterodyne FM Receivers](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/superheterodyne-fm-receivers)
+
+# Similar projects
+* [Koen van Dijken : FM receiver](https://github.com/kvdijken/FM-Receiver/)
