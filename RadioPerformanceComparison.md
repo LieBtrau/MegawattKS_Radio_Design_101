@@ -1,4 +1,4 @@
-| Chann$SELECTION_PLACEHOLDER$l Name | Frequency | Qodosen DX-286 (with RSSI in dBu) | Grundig RCD 1420 MP3 | Tesla Model 3 | Yaesu FT-65 with Super-Elastic Signal Stick™ |
+| Channel Name     | Frequency | Qodosen DX-286 (with RSSI in dBu) | Grundig RCD 1420 MP3 | Tesla Model 3 | Yaesu FT-65 with Super-Elastic Signal Stick™ |
 |:----------------:|:---------:|:---------------------------------:|:-------------------:|:-------------:|:-----------------------------------------:|
 | Play Nostalgie   | 88.0      | 🟢, 42                            | 🟡                 | DAB           | 🟡                                         |
 | Nostalgie+       | 88.4      | 🟢, 35                            | 🟡                 | DAB           | 🟡                                         |
