@@ -18,6 +18,7 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 
 ## Project 3 : Mixer
 * [Mixer](./mixer/mixer.ipynb)
+* [Termination Insensitive Amplifier](./post_mixer_amplifier/TIA.ipynb)
 * [Altium design : mixer 1.0.0](https://365.altium.com/files/F208B1A5-9C89-4744-8A48-3EA8E93C1159)
 
 # Other resources
