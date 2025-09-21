@@ -1,0 +1,29 @@
+* C:\github\MegawattKS_Radio_Design_101\diplexer_filter_IF_port\simulation\diplexer_IF_actual_values.asc
+V1 N001 0 AC 1 Rser=50
+R1 N003 0 50
+XL1 N001 N002 RFI_1008A_744762368A_6u8
+C1 N003 N002 33p
+R2 N004 N001 50
+R3 N003 N004 50
+Cp1 N004 0 3.45n
+XL2 N008 0 4248_744912168_68n
+V2 N005 0 AC 1 Rser=50
+R4 N007 0 50
+XL3 N005 N006 RFH_1008A_744758368A_6u8
+C2 N007 N006 33p
+R5 N008 N005 50
+R6 N007 N008 50
+Cp2 N008 0 3.3n
+XL4 N004 0 1008_744762168A
+.net I(R1) V1
+.net I(R4) V2
+.ac dec 1001 5e6 500e6
+.inc WE-RFI.lib
+.inc WE-RFH.lib
+* 6.8µH WE-RFH: lower S11 near 10.7MHz
+* 6.8µH WE-RFI
+* WE-KI as L4 gives much lower S11.
+.lib Contrib/Wurth/WE-CAIR.lib
+.lib Contrib/Wurth/WE-KI.lib
+.backanno
+.end
