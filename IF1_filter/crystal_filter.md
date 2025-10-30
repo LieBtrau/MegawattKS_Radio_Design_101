@@ -34,5 +34,5 @@ The attenuation at the center frequency is about 6dB, which is expected.
 The attenuation at the center frequency is about 12dB, which is expected.  The attenuation at +/- 100kHz is more than 10dB.
 
 # References
-[The FM Ceramic Filter Page](https://www.earmark.net/gesr/cf.htm)
-EMRFD : The Min-Loss Filter of Cohn and other Simplified Forms
+* [The FM Ceramic Filter Page](https://www.earmark.net/gesr/cf.htm)
+* EMRFD : The Min-Loss Filter of Cohn and other Simplified Forms
