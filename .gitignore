@@ -8,8 +8,10 @@
 exclude/
 
 # Altium files
+*.PrjPcbStructure
 *.LOG
 *.zip
 Project Outputs*/
+Project Logs*/
 History/
 __Previews/
