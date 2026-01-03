@@ -26,3 +26,4 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 
 # Similar projects
 * [Koen van Dijken : FM receiver](https://github.com/kvdijken/FM-Receiver/)
+* [Phil's Valve Radio Site : Double Conversion Pulse Counting FM Superhet Receiver With 10.7 MHz First IF Stage](https://www.philsvalveradiosite.co.uk/doubleconversionpulsecountingfmtuner_1.htm)
