@@ -6,6 +6,10 @@
 *.plt
 *.raw
 exclude/
+
+# Altium files
+*.LOG
+*.zip
 Project Outputs*/
 History/
 __Previews/
