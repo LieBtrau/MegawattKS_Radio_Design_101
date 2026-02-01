@@ -1,0 +1,92 @@
+***********************************************************
+*
+* PBSS5250X
+*
+* Nexperia
+*
+* Low VCEsat PNP (BISS) Transistor
+* IC   = 2 A
+* VCEO = 50 V 
+* hFE  = min. 200  @ 2V/0,1A
+*
+*
+*
+*
+* Package pinning does not match Spice model pinning.
+* Package: SOT 89
+* 
+* Package Pin 1: Emitter
+* Package Pin 2: Collector 
+* Package Pin 3: Base
+*
+*
+* Extraction date (week/year): 06/2019
+* Spicemodel includes temperature dependency
+*
+**********************************************************
+*#
+* Please note: Diode D1, Transistor Q2 and Resistor RQ 
+* are dedicated to improve modeling of quasi
+* saturation area and reverse mode operation
+* and do not reflect physical devices.
+*
+.SUBCKT PBSS5250X 1 2 3
+Q1 1 2 3 MAIN 0.765
+Q2 11 2 3 MAIN 0.235
+RQ 11 1 3.682
+D1 1 2 Diode
+*
+.MODEL MAIN PNP
++ IS = 8.526E-013
++ NF = 1
++ ISE = 1.528E-014
++ NE = 1.371
++ BF = 450
++ IKF = 1.497
++ VAF = 41.92
++ NR = 0.9993
++ ISC = 4.887E-014
++ NC = 1.361
++ BR = 75
++ IKR = 0.5504
++ VAR = 25
++ RB = 12
++ IRB = 0.0014
++ RBM = 1
++ RE = 0.02122
++ RC = 0.04875
++ XTB = 1.434
++ EG = 1.11
++ XTI = 4.099
++ CJE = 2.608E-010
++ VJE = 0.6498
++ MJE = 0.3543
++ TF = 9.476E-010
++ XTF = 3.565
++ VTF = 2
++ ITF = 1.504
++ PTF = 0
++ CJC = 8.645E-011
++ VJC = 0.5158
++ MJC = 0.3346
++ XCJC = 1
++ TR = 2.1E-008
++ CJS = 0
++ VJS = 0.75
++ MJS = 0.333
++ FC = 0.9597
+.MODEL Diode D
++ IS = 7.447E-014
++ N = 2.104
++ BV = 1000
++ IBV = 0.001
++ RS = 11.75
++ CJO = 0
++ VJ = 1
++ M = 0.5
++ FC = 0
++ TT = 0
++ EG = 1.11
++ XTI = 3
+.ENDS
+*

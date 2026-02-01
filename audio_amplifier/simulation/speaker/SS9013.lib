@@ -1,0 +1,41 @@
+* SS9013 NPN EPITAXIAL SILICON TRANSISTOR ELECTRICAL PARAMETERS
+*---------------------------------------------------------------
+* Vcbo (40V) & Vceo (20V)
+* 1W Output Amplifier of Potable Radios in Class B Push-pull Operation.
+*---------------------------------------------------------------
+* MODEL PARAMETERS FROM MEASURED DATA: SS9013-HBU
+*--------------------------------------------------------------- 
+.MODEL  SS9013  NPN 
++ LEVEL = 1
++ IS    = 3.40675E-14
++ NF    = 1.0
++ ISE   = 1.23675E-14
++ NE    = 2.0
++ BF    = 166.0
++ IKF   = 1.164
++ VAF   = 67.0
++ NR    = 1.0
++ ISC   = 1.90546E-15
++ NC    = 1.066
++ BR    = 15.1731
++ IKR   = 0.261352
++ VAR   = 40.84
++ RB    = 63.2
++ IRB   = 5.623413E-06
++ RBM   = 22.078
++ RE    = 0.02
++ RC    = 0.7426
++ XTB   = 1.4025
++ EG    = 1.0999
++ XTI   = 3.0
++ CJE   = 3.53E-11
++ VJE   = 0.808
++ MJE   = 0.372
++ CJC   = 1.74E-11
++ VJC   = 0.614
++ MJC   = 0.388
++ XCJC  = 0.349
++ FC    = 0.5
+* --------------------------------------------------------------
+* FAIRCHILD   CASE: TO-92   PID: SS9013
+* FEB-01-2002 CREATION
