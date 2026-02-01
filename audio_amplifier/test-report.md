@@ -17,6 +17,7 @@
 | [TIR1](#tir1)<a id="ttir1"/> | Quiescent current is 3x higher than expected, although DC-bias voltages are ok. The transistors have much higher beta than in the simulation.| There's a fixed current regulation by the two series 1N4148.  That would have to be replaced by a current regulator, which adds complexity.  No action taken. | | 
 | TIR2 | Lots of noise on incoming audio | decouple both incoming audio channels with 100nF each to GND|  |
 | [TIR3](#tir3)<a id="ttir3"/> | Max output voltage at THD<1% is much lower than expected from simulation. | It's good enough for now | | |
+| TIR4 | Audio volume limited when using audio jack from detector output to amplifier input | This shouldn't be done normally.<br/>It was only done here because the detector and the amplifier were on separate PCBs.<br/>Audio output level was loud enough when using another source (e.g. laptop) as audio source. |  |
 
 # Test Results
 | Action | Expected Result | Observed result | Status |
