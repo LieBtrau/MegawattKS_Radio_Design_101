@@ -16,10 +16,15 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 * [RF Amplifier](./CB-CC_amplifier/CB-CC_amplifier.ipynb)
 * [Altium design : LNA 1.0.2A](https://365.altium.com/files/E94FC5CA-4852-404E-B517-56AADBFE7270)
 
-## Project 3 : Mixer
+## Project 3 : Mixer and IF Amplifier
 * [Mixer](./mixer/mixer.ipynb)
 * [Termination Insensitive Amplifier](./post_mixer_amplifier/TIA.ipynb)
 * [Altium design : mixer 1.0.0](https://365.altium.com/files/F208B1A5-9C89-4744-8A48-3EA8E93C1159)
+
+## Project 4 : Detector and Audio Amplifier
+* [FM Detector](./detector/detector.ipynb)
+* [Audio Amplifier](./audio_amplifier/audio-amp.ipynb)
+* [Altium design : FMDET 1.0.0A](https://365.altium.com/files/EC3D910A-1821-4A3E-BA8B-47F879EACFAB)
 
 # Other resources
 * [MikroE Superheterodyne FM Receivers](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/superheterodyne-fm-receivers)
