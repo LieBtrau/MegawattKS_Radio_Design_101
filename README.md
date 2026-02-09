@@ -26,8 +26,10 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 * [Audio Amplifier](./audio_amplifier/audio-amp.ipynb)
 * [Altium design : FMDET 1.0.0A](https://365.altium.com/files/EC3D910A-1821-4A3E-BA8B-47F879EACFAB)
 
-## Project 5 : Local Oscillator
+## Project 5 : Variable Frequency Oscillator
 * [fmosc](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FLieBtrau%2FMegawattKS_Radio_Design_101%2Ftree%2Fmain%2Foscillator%2Fhardware%2Ffmosc)
+
+## Project 6 : Local Oscillator
 
 # Other resources
 * [MikroE Superheterodyne FM Receivers](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/superheterodyne-fm-receivers)
