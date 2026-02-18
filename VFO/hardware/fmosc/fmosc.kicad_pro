@@ -777,6 +777,14 @@
     [
       "3dada041-f728-4295-8fb8-7b5173e4bef2",
       "Root"
+    ],
+    [
+      "e949211d-0039-4338-a2fc-0b5d0b7f32a6",
+      "Common_Base_Colpitts"
+    ],
+    [
+      "fe3bed42-6b1c-4d61-bee1-7646a6e3604b",
+      "Seiler"
     ]
   ],
   "text_variables": {
@@ -787,7 +795,7 @@
     "PROJECTID": "00",
     "PROJECTURL": "https://github.com/LieBtrau/MegawattKS_Radio_Design_101",
     "REQID": "0",
-    "REVID": "0",
+    "REVID": "1",
     "VARID": "0",
     "VARREV": "0"
   }
