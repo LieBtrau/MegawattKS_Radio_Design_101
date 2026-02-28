@@ -4768,136 +4768,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#gplm:rfm/RFM-0000-0001"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3670128"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "g-rfm:H_Wurth_WE-SHC-SEAMLESS-FRAME_3670128"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/3670128.pdf"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "WE-SHC TWO-PIECE SEAMLESS SHIELD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "IPN" "RFM-0000-0001"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "3670128"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C4365834"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RF EMI shielding cabinet"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "g-rfm:H_Wurth_WE-SHC-SEAMLESS-FRAME_3670128"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "rfm/RFM-0000-0001_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "#gplm:trs/TRS-0000-0000"
 			(pin_names
 				(offset 0)
@@ -5389,22 +5259,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 93.98 58.42)
-		(end 124.46 104.14)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 128 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b294ff7d-d5ff-4fd7-a054-0521fc83661e)
-	)
 	(text "Frequency tune\n0 → 5Vdc"
 		(exclude_from_sim no)
-		(at 53.34 91.44 0)
+		(at 60.96 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5449,7 +5306,7 @@
 		(uuid "6bdaf33b-894e-48fb-b3ed-235d9b76469f")
 	)
 	(junction
-		(at 73.66 91.44)
+		(at 81.28 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e216410-e7c3-4d66-bf82-e6f6344ed8a2")
@@ -5467,13 +5324,7 @@
 		(uuid "7d720891-f0b4-4744-b28c-537f72240b30")
 	)
 	(junction
-		(at 88.9 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8e3190e-cc64-4763-8c15-9fe3b97f135f")
-	)
-	(junction
-		(at 63.5 104.14)
+		(at 71.12 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa4941c9-cd05-44c2-85e9-3d6ea96d54ff")
@@ -5483,6 +5334,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6c90042-f61e-41de-8bd0-8e970aeab547")
+	)
+	(junction
+		(at 205.74 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d28e670b-6bf8-41b9-a48a-3e96a8b448ae")
 	)
 	(junction
 		(at 142.24 76.2)
@@ -5524,24 +5381,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 93.98) (xy 68.58 104.14)
+			(xy 76.2 93.98) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05077626-d876-455e-b18d-52b36ab0d18c")
-	)
-	(polyline
-		(pts
-			(xy 91.44 55.88) (xy 127 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 128 0 0 1)
-		)
-		(uuid "0ba5e7f4-cd4d-401a-9ec9-b8497b9bcb14")
 	)
 	(wire
 		(pts
@@ -5605,17 +5451,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 99.06 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b47dda-1be0-443f-bd9d-810a46c69750")
-	)
-	(wire
-		(pts
-			(xy 73.66 101.6) (xy 73.66 109.22)
+			(xy 81.28 101.6) (xy 81.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5675,6 +5511,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 63.5) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bad7d78-364a-4bc8-930e-3dc1c658161a")
+	)
+	(wire
+		(pts
 			(xy 177.8 63.5) (xy 177.8 66.04)
 		)
 		(stroke
@@ -5705,7 +5551,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 91.44) (xy 73.66 93.98)
+			(xy 81.28 91.44) (xy 81.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5715,7 +5561,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 93.98) (xy 68.58 93.98)
+			(xy 73.66 93.98) (xy 76.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5782,28 +5628,6 @@
 			(type default)
 		)
 		(uuid "601d5cc1-a765-483c-a136-97a453583a99")
-	)
-	(polyline
-		(pts
-			(xy 127 55.88) (xy 127 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 128 0 0 1)
-		)
-		(uuid "60702acd-d87c-4464-8e65-5094f3acb22f")
-	)
-	(polyline
-		(pts
-			(xy 91.44 60.96) (xy 91.44 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 128 0 0 1)
-		)
-		(uuid "61e2dd5a-9682-4a70-afe9-5e9e7eded869")
 	)
 	(wire
 		(pts
@@ -5897,6 +5721,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 63.5) (xy 215.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a76d2f-0dd1-4da0-bb74-26faf6a41baa")
+	)
+	(wire
+		(pts
 			(xy 154.94 63.5) (xy 157.48 63.5)
 		)
 		(stroke
@@ -5907,7 +5741,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 91.44) (xy 78.74 91.44)
+			(xy 81.28 91.44) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5944,16 +5778,6 @@
 			(type default)
 		)
 		(uuid "9901d732-1e44-42c8-8e51-97cd34ece9e4")
-	)
-	(wire
-		(pts
-			(xy 88.9 91.44) (xy 88.9 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e747b60-8097-4d70-ae16-e79fdf779b64")
 	)
 	(wire
 		(pts
@@ -6017,7 +5841,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 99.06) (xy 63.5 104.14)
+			(xy 71.12 99.06) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6037,7 +5861,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 63.5 109.22)
+			(xy 71.12 104.14) (xy 71.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6077,7 +5901,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 68.58 104.14)
+			(xy 71.12 104.14) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6117,17 +5941,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9e9de5d-8554-4939-a8bf-ed1d19f16c39")
-	)
-	(wire
-		(pts
-			(xy 73.66 91.44) (xy 66.04 91.44)
+			(xy 81.28 91.44) (xy 73.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6144,6 +5958,16 @@
 			(type default)
 		)
 		(uuid "dd4a17f4-c667-48b4-8060-ce6962f4a621")
+	)
+	(wire
+		(pts
+			(xy 218.44 63.5) (xy 218.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e089df59-af39-4bab-9135-6770e5b2ffaa")
 	)
 	(wire
 		(pts
@@ -6187,16 +6011,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 91.44) (xy 88.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24e014b-9193-4589-a997-835fd604f5bf")
-	)
-	(wire
-		(pts
 			(xy 190.5 60.96) (xy 190.5 63.5)
 		)
 		(stroke
@@ -6207,13 +6021,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 88.9 109.22)
+			(xy 93.98 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fda55665-937a-4452-8fa3-d308a5e87099")
+		(uuid "fbe2b166-e637-4297-9926-3bc59e153bd5")
 	)
 	(wire
 		(pts
@@ -6226,7 +6040,7 @@
 		(uuid "fff43b8b-cdaf-40d9-8ced-811d2c44d57b")
 	)
 	(label "F_TUNE"
-		(at 68.58 91.44 0)
+		(at 76.2 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6441,137 +6255,17 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:rfm/RFM-0000-0001")
-		(at 114.3 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20387123-21c2-4946-9394-7a12f877b6c1")
-		(property "Reference" "J6"
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3670128"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "g-rfm:H_Wurth_WE-SHC-SEAMLESS-FRAME_3670128"
-			(at 114.3 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/3670128.pdf"
-			(at 114.3 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WE-SHC TWO-PIECE SEAMLESS SHIELD"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "RFM-0000-0001"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "3670128"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4365834"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e41e02c2-a511-451b-95b6-d1546c0ff2fd")
-		)
-		(instances
-			(project "fmosc"
-				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#gplm:cap/CAP-0000-0103")
-		(at 88.9 99.06 90)
+		(lib_id "power:GND")
+		(at 218.44 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22f9ee62-a410-4253-8094-65f0448f344a")
-		(property "Reference" "C16"
-			(at 86.36 97.79 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 91.44 97.79 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "g-cap:C_0603_1608Metric"
-			(at 92.71 98.0948 0)
+		(uuid "22609a09-aed7-4f8e-8062-369b2ac91094")
+		(property "Reference" "#PWR043"
+			(at 218.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,28 +6273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71H103KA37-01.pdf"
-			(at 96.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10NF 50V X7R 0603"
-			(at 93.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "IPN" "CAP-0000-0103"
-			(at 88.9 99.06 0)
+		(property "Value" "GND"
+			(at 218.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,8 +6282,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 88.9 99.06 0)
+		(property "Footprint" ""
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,8 +6291,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM188R71H103KA37D"
-			(at 88.9 99.06 0)
+		(property "Datasheet" ""
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,44 +6300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "10n"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "X7R"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C57112"
-			(at 88.9 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,15 +6310,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "18e4c11f-82c8-4ea7-8b70-dcc86f98fcde")
-		)
-		(pin "2"
-			(uuid "87e2818d-9c7a-4663-865a-4fd1aaef21f2")
+			(uuid "b9cb9b05-2bd0-4065-8be8-71154dcff912")
 		)
 		(instances
 			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
-					(reference "C16")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7026,7 +6661,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 109.22 0)
+		(at 81.28 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7035,7 +6670,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f32e88-f614-407f-9133-da4f45f8c8c4")
 		(property "Reference" "#PWR026"
-			(at 73.66 115.57 0)
+			(at 81.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +6679,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 114.3 0)
+			(at 81.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +6688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +6697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +6706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,75 +7853,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d32dd71-3574-433b-9759-acb0e9975418")
-		(property "Reference" "#PWR032"
-			(at 88.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6be0bbb-0964-4f08-bf4a-650d6ae467ba")
-		)
-		(instances
-			(project "fmosc"
-				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "#gplm:res/RES-0000-1003")
-		(at 81.28 91.44 0)
+		(at 88.9 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8295,7 +7863,7 @@
 		(fields_autoplaced yes)
 		(uuid "98ef8bdd-1196-478a-8be9-6d67484d4e8d")
 		(property "Reference" "R20"
-			(at 82.55 88.9 0)
+			(at 90.17 88.9 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8304,7 +7872,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 82.55 93.98 0)
+			(at 90.17 93.98 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8313,7 +7881,7 @@
 			)
 		)
 		(property "Footprint" "g-res:R_0603_1608Metric"
-			(at 82.296 91.694 90)
+			(at 89.916 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +7890,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 74.93 99.06 0)
+			(at 82.55 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +7900,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 74.93 96.52 0)
+			(at 82.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +7910,7 @@
 			)
 		)
 		(property "IPN" "RES-0000-1003"
-			(at 81.28 91.44 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +7919,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 81.28 91.44 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +7928,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
-			(at 81.28 91.44 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +7937,7 @@
 			)
 		)
 		(property "Resistance" "100K"
-			(at 81.28 91.44 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +7946,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 81.28 91.44 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +7955,7 @@
 			)
 		)
 		(property "LCSC" "C25803"
-			(at 81.28 91.44 0)
+			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8361,7 @@
 	)
 	(symbol
 		(lib_id "#gplm:con/CON-0000-0002")
-		(at 63.5 91.44 0)
+		(at 71.12 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8801,7 +8369,7 @@
 		(dnp no)
 		(uuid "a27ad8cc-3059-40b9-97bb-52a2fdd57772")
 		(property "Reference" "J5"
-			(at 63.5 88.9 0)
+			(at 71.12 88.9 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8810,7 +8378,7 @@
 			)
 		)
 		(property "Value" "JST PH"
-			(at 60.96 93.98 90)
+			(at 68.58 93.98 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8820,7 +8388,7 @@
 			)
 		)
 		(property "Footprint" "g-con:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 63.5 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,7 +8397,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 66.04 96.52 0)
+			(at 73.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,7 +8407,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 2POS 2MM"
-			(at 66.04 97.79 0)
+			(at 73.66 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +8417,7 @@
 			)
 		)
 		(property "IPN" "CON-0000-0002"
-			(at 63.5 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +8426,7 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
-			(at 63.5 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8435,7 @@
 			)
 		)
 		(property "MPN" "S2B-PH-SM4-TB"
-			(at 63.5 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8444,7 @@
 			)
 		)
 		(property "Pins" "2"
-			(at 63.5 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8453,7 @@
 			)
 		)
 		(property "LCSC" "C295747"
-			(at 63.5 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +8481,7 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-0000-0103")
-		(at 73.66 99.06 90)
+		(at 81.28 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8922,7 +8490,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2c5078e-0513-4408-b4a0-ce5849b6c1fb")
 		(property "Reference" "C14"
-			(at 71.12 97.79 0)
+			(at 78.74 97.79 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8931,7 +8499,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 76.2 97.79 0)
+			(at 83.82 97.79 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8940,7 +8508,7 @@
 			)
 		)
 		(property "Footprint" "g-cap:C_0603_1608Metric"
-			(at 77.47 98.0948 0)
+			(at 85.09 98.0948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +8517,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71H103KA37-01.pdf"
-			(at 81.28 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8527,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10NF 50V X7R 0603"
-			(at 78.74 106.68 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +8537,7 @@
 			)
 		)
 		(property "IPN" "CAP-0000-0103"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,7 +8546,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +8555,7 @@
 			)
 		)
 		(property "MPN" "GCM188R71H103KA37D"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +8564,7 @@
 			)
 		)
 		(property "Capacitance" "10n"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +8573,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,7 +8582,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9023,7 +8591,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9032,7 +8600,7 @@
 			)
 		)
 		(property "LCSC" "C57112"
-			(at 73.66 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +8693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 109.22 0)
+		(at 71.12 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9134,7 +8702,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3bf6dc4-7914-429a-9816-4754565f29ba")
 		(property "Reference" "#PWR025"
-			(at 63.5 115.57 0)
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +8711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 114.3 0)
+			(at 71.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +8720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 109.22 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +8729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 109.22 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9170,7 +8738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 109.22 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,6 +9832,150 @@
 		)
 	)
 	(symbol
+		(lib_id "#gplm:cap/CAP-0000-0103")
+		(at 210.82 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d43a37-5c14-4277-922c-5608d5784c0c")
+		(property "Reference" "C19"
+			(at 212.09 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 212.09 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "g-cap:C_0603_1608Metric"
+			(at 211.7852 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71H103KA37-01.pdf"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10NF 50V X7R 0603"
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IPN" "CAP-0000-0103"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM188R71H103KA37D"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10n"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57112"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d916556-afee-444d-83c0-85e115522d57")
+		)
+		(pin "2"
+			(uuid "048bbdda-c960-49f5-be1b-dde32c94af5e")
+		)
+		(instances
+			(project "fmosc"
+				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 109.22 0)
 		(unit 1)
@@ -10980,73 +10692,6 @@
 			(project ""
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa11d9d3-520b-4992-9db7-e6dfcfb3ee9d")
-		(property "Reference" "#PWR034"
-			(at 114.3 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1f6f0c9-32ad-4273-8972-89c8f418b953")
-		)
-		(instances
-			(project "fmosc"
-				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)

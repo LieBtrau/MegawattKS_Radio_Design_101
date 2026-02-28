@@ -10,7 +10,7 @@
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.6899999976158142,
       "tracks": 1.0,
       "vias": 1.0,
       "zones": 0.6
@@ -111,7 +111,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "../../../../electronics-design-data/ECAD/KiCad/jobsets/gerber.kicad_jobset"
+  ],
   "project": {
     "files": []
   },
