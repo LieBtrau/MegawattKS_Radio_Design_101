@@ -1251,7 +1251,7 @@
 				)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4053,7 +4053,7 @@
 				)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7932,7 +7932,7 @@
 				)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11058,7 +11058,7 @@
 				)
 			)
 		)
-		(property "IPN" "IND-0000-0101"
+		(property "IPN" "IND-0001-0101"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11110,7 +11110,7 @@
 				)
 			)
 		)
-		(property "Current" "1.7A"
+		(property "Current" "1.7"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13698,7 +13698,7 @@
 				)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14872,7 +14872,7 @@
 				)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15319,7 +15319,7 @@
 				)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15471,7 +15471,7 @@
 				)
 			)
 		)
-		(property "IPN" "IND-0000-0820"
+		(property "IPN" "IND-0001-0820"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15523,7 +15523,7 @@
 				)
 			)
 		)
-		(property "Current" "2.5A"
+		(property "Current" "2.5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16553,7 +16553,7 @@
 				)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

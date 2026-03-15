@@ -2184,7 +2184,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#gplm:ind/IND-0000-0820"
+		(symbol "#gplm:ind/IND-0001-0820"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2242,7 +2242,7 @@
 					(hide yes)
 				)
 			)
-			(property "IPN" "IND-0000-0820"
+			(property "IPN" "IND-0001-0820"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2278,7 +2278,7 @@
 					(hide yes)
 				)
 			)
-			(property "Current" "2.5A"
+			(property "Current" "2.5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2314,7 +2314,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ind/IND-0000-0820_0_1"
+			(symbol "ind/IND-0001-0820_0_1"
 				(arc
 					(start -1.27 0)
 					(mid -0.635 0.6323)
@@ -2368,7 +2368,7 @@
 					)
 				)
 			)
-			(symbol "ind/IND-0000-0820_1_1"
+			(symbol "ind/IND-0001-0820_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -4859,7 +4859,7 @@
 					(hide yes)
 				)
 			)
-			(property "max(Ic)" "50m"
+			(property "max(Ic)" "0.05"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5269,6 +5269,66 @@
 		)
 		(uuid "2e324eda-2f2c-491e-8031-36413b3d9288")
 	)
+	(text "(1.17 V)"
+		(exclude_from_sim no)
+		(at 135.89 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c545d92-6316-46ea-b4af-52b673ef3e55")
+	)
+	(text "(2.25 V)"
+		(exclude_from_sim no)
+		(at 213.36 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c312f47-b442-43ed-82da-c0405baf4859")
+	)
+	(text "(3.12 V)"
+		(exclude_from_sim no)
+		(at 194.31 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9067ac16-efb9-4b28-9791-33140a3caa28")
+	)
+	(text "(4.99 V)"
+		(exclude_from_sim no)
+		(at 128.27 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5b6fc4c-ea73-43f8-9e87-c46f441daf8b")
+	)
+	(text "(1.94 V)"
+		(exclude_from_sim no)
+		(at 158.75 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3ef5a8c-4aaa-4223-a091-4c595d94399f")
+	)
+	(text "(3.94 V)"
+		(exclude_from_sim no)
+		(at 171.45 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6bb26e8-218f-48ad-a4ca-65880ecb0b1b")
+	)
 	(junction
 		(at 99.06 91.44)
 		(diameter 0)
@@ -5401,7 +5461,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 165.1 76.2)
+			(xy 142.24 76.2) (xy 161.29 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5461,7 +5521,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 177.8 76.2)
+			(xy 168.91 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5661,7 +5721,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 137.16 91.44)
+			(xy 142.24 91.44) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5801,7 +5861,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 129.54 91.44)
+			(xy 119.38 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6218,7 +6278,7 @@
 				(hide yes)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -7748,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -8197,7 +8257,7 @@
 				(hide yes)
 			)
 		)
-		(property "max(Ic)" "50m"
+		(property "max(Ic)" "0.05"
 			(at 203.2 83.82 0)
 			(effects
 				(font
@@ -8234,7 +8294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:ind/IND-0000-0820")
+		(lib_id "#gplm:ind/IND-0001-0820")
 		(at 119.38 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8290,7 +8350,7 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "IND-0000-0820"
+		(property "IPN" "IND-0001-0820"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -8326,7 +8386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Current" "2.5A"
+		(property "Current" "2.5"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -8971,7 +9031,7 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-0000-0040")
-		(at 167.64 76.2 0)
+		(at 163.83 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8980,7 +9040,7 @@
 		(fields_autoplaced yes)
 		(uuid "b00fe186-f41a-40f7-bb96-87024a6da1f9")
 		(property "Reference" "C15"
-			(at 168.91 73.66 0)
+			(at 165.1 73.66 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8989,7 +9049,7 @@
 			)
 		)
 		(property "Value" "4p"
-			(at 168.91 78.74 0)
+			(at 165.1 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8998,7 +9058,7 @@
 			)
 		)
 		(property "Footprint" "g-cap:C_0603_1608Metric"
-			(at 168.6052 80.01 0)
+			(at 164.7952 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +9067,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588900709887070208"
-			(at 160.02 83.82 0)
+			(at 156.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9077,7 @@
 			)
 		)
 		(property "Description" "CAP CER 4PF 50V C0G/NP0 0603"
-			(at 160.02 81.28 0)
+			(at 156.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9087,7 @@
 			)
 		)
 		(property "IPN" "CAP-0000-0040"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9096,7 @@
 			)
 		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,7 +9105,7 @@
 			)
 		)
 		(property "MPN" "0603CG4R0C500NT"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +9114,7 @@
 			)
 		)
 		(property "Capacitance" "4p"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9123,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9072,7 +9132,7 @@
 			)
 		)
 		(property "Material" "NP0"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +9141,7 @@
 			)
 		)
 		(property "Tolerance" "±0.25pF"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9090,7 +9150,7 @@
 			)
 		)
 		(property "LCSC" "C1668"
-			(at 167.64 76.2 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9623,7 @@
 	)
 	(symbol
 		(lib_id "#gplm:res/RES-0000-1000")
-		(at 132.08 91.44 0)
+		(at 127 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9572,7 +9632,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7774681-8672-4e8b-93b7-abb55be87483")
 		(property "Reference" "R15"
-			(at 133.35 88.9 0)
+			(at 128.27 88.9 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9581,7 +9641,7 @@
 			)
 		)
 		(property "Value" "100E"
-			(at 133.35 93.98 0)
+			(at 128.27 93.98 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9590,7 +9650,7 @@
 			)
 		)
 		(property "Footprint" "g-res:R_0603_1608Metric"
-			(at 133.096 91.694 90)
+			(at 128.016 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9659,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 125.73 99.06 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9669,7 @@
 			)
 		)
 		(property "Description" "RES 100 OHM 1% 1/10W 0603"
-			(at 125.73 96.52 0)
+			(at 120.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9679,7 @@
 			)
 		)
 		(property "IPN" "RES-0000-1000"
-			(at 132.08 91.44 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9688,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 132.08 91.44 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +9697,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100RL"
-			(at 132.08 91.44 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +9706,7 @@
 			)
 		)
 		(property "Resistance" "100E"
-			(at 132.08 91.44 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +9715,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 132.08 91.44 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +9724,7 @@
 			)
 		)
 		(property "LCSC" "C22775"
-			(at 132.08 91.44 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
