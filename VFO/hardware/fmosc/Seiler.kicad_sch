@@ -5294,6 +5294,28 @@
 		)
 		(uuid "e1462019-ad32-4c3d-9d22-14c706451cf4")
 	)
+	(text_box "Do not use!\nThe oscillation amplitude is very small.\nUse the CB-Colpitts design instead."
+		(exclude_from_sim no)
+		(at 175.26 147.32 0)
+		(size 60.96 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ca39e96e-648d-47e5-91b3-23a5a291b9bb")
+	)
 	(junction
 		(at 109.22 81.28)
 		(diameter 0)
@@ -7779,7 +7801,7 @@
 			(uuid "ed3b0742-bb32-45e9-b169-f105434f60b0")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/fe3bed42-6b1c-4d61-bee1-7646a6e3604b"
 					(reference "D5")
 					(unit 1)
@@ -7923,7 +7945,7 @@
 			(uuid "89e27d20-88d5-4e69-8a4c-56c9b3fdfaaf")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/fe3bed42-6b1c-4d61-bee1-7646a6e3604b"
 					(reference "C7")
 					(unit 1)
@@ -10118,7 +10140,7 @@
 			(uuid "14ba8159-a149-44fb-b4c0-9c733f361f8f")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/fe3bed42-6b1c-4d61-bee1-7646a6e3604b"
 					(reference "D2")
 					(unit 1)
@@ -10244,7 +10266,7 @@
 			(uuid "be572a2e-c875-4b8e-bb23-cbce9d897c79")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/fe3bed42-6b1c-4d61-bee1-7646a6e3604b"
 					(reference "D3")
 					(unit 1)

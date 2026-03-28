@@ -1579,7 +1579,7 @@
 			(uuid "9667a37a-0377-4680-98c7-7e5682ee1c7f")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "#FLG01")
 					(unit 1)
@@ -1646,7 +1646,7 @@
 			(uuid "4d8fb03e-893e-46a3-b391-b92e4eb8ca66")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "#FLG02")
 					(unit 1)
@@ -1713,7 +1713,7 @@
 			(uuid "f34ecae7-b32b-4c16-970f-41b10d8630b0")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "TP1")
 					(unit 1)
@@ -1777,7 +1777,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "FID1")
 					(unit 1)
@@ -1844,7 +1844,7 @@
 			(uuid "c9a5116e-3f01-48df-aa18-da3490a91bfc")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "TP2")
 					(unit 1)
@@ -1911,7 +1911,7 @@
 			(uuid "3770291e-ad41-41b4-9c04-b12df64d48ea")
 		)
 		(instances
-			(project "test1"
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "H2")
 					(unit 1)
@@ -1978,7 +1978,7 @@
 			(uuid "5ab0c5f4-1340-4d35-831a-d09c81180fc0")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "H1")
 					(unit 1)
@@ -2045,7 +2045,7 @@
 			(uuid "f89a0880-30d6-47e0-81cd-238c6c096c15")
 		)
 		(instances
-			(project "test1"
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "H3")
 					(unit 1)
@@ -2112,7 +2112,7 @@
 			(uuid "708817b0-c41e-4339-b868-809de952a74b")
 		)
 		(instances
-			(project "test1"
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "#PWR02")
 					(unit 1)
@@ -2179,7 +2179,7 @@
 			(uuid "23ab2bb3-dd9e-4643-bd9a-9cfec06856d6")
 		)
 		(instances
-			(project "test1"
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "#PWR021")
 					(unit 1)
@@ -2309,7 +2309,7 @@
 			)
 		)
 		(instances
-			(project "test1"
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "FID2")
 					(unit 1)
@@ -2462,7 +2462,7 @@
 			(uuid "60249807-6926-4c0c-82f8-81f5b3cfa0c0")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "D1")
 					(unit 1)
@@ -2588,7 +2588,7 @@
 			(uuid "b7591f55-2d73-4042-8866-5206ad7a2cc6")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "R2")
 					(unit 1)
@@ -2652,7 +2652,7 @@
 			)
 		)
 		(instances
-			(project "test1"
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "FID3")
 					(unit 1)
@@ -2772,7 +2772,7 @@
 			(uuid "6c4be815-d06c-4b76-a69a-75f3dabaa450")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "J1")
 					(unit 1)
@@ -2906,7 +2906,7 @@
 			(uuid "e73ffed5-e8d6-455b-9738-b49c172af11e")
 		)
 		(instances
-			(project "test1"
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "H4")
 					(unit 1)
@@ -2972,7 +2972,7 @@
 			(uuid "e13ae2f7-b419-4ced-846c-34314c7f21f7")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "#PWR03")
 					(unit 1)
@@ -3039,7 +3039,7 @@
 			(uuid "4b5ae626-eba1-4136-8fbb-cddf443ae6c8")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2"
 					(reference "#PWR01")
 					(unit 1)
@@ -3056,11 +3056,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.3048)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 1.0000)
 		)
 		(uuid "e949211d-0039-4338-a2fc-0b5d0b7f32a6")
 		(property "Sheetname" "Common_Base_Colpitts"
@@ -3098,11 +3098,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.3048)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 1.0000)
 		)
 		(uuid "fe3bed42-6b1c-4d61-bee1-7646a6e3604b")
 		(property "Sheetname" "Seiler"

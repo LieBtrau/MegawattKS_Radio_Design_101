@@ -725,7 +725,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#gplm:cap/CAP-0000-0270"
+		(symbol "#gplm:cap/CAP-0000-0220"
 			(pin_numbers
 				(hide yes)
 			)
@@ -744,7 +744,7 @@
 					)
 				)
 			)
-			(property "Value" "27p"
+			(property "Value" "22p"
 				(at 1.27 -2.54 0)
 				(do_not_autoplace)
 				(effects
@@ -762,7 +762,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707043277824000"
 				(at -7.62 -7.62 0)
 				(effects
 					(font
@@ -772,7 +772,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 27PF 50V C0G/NP0 0603"
+			(property "Description" "CAP CER 22pF 50V C0G 0603"
 				(at -7.62 -5.08 0)
 				(effects
 					(font
@@ -782,7 +782,7 @@
 					(hide yes)
 				)
 			)
-			(property "IPN" "CAP-0000-0270"
+			(property "IPN" "CAP-0000-0220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -791,7 +791,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "KEMET"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -800,7 +800,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C0603C270J5GACTU"
+			(property "MPN" "CL10C220JB8NNNC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -809,7 +809,7 @@
 					(hide yes)
 				)
 			)
-			(property "Capacitance" "27p"
+			(property "Capacitance" "22p"
 				(at 0 0 0)
 				(effects
 					(font
@@ -827,7 +827,7 @@
 					(hide yes)
 				)
 			)
-			(property "Material" "NP0"
+			(property "Material" "C0G"
 				(at 0 0 0)
 				(effects
 					(font
@@ -845,7 +845,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C107045"
+			(property "LCSC" "C1653"
 				(at 0 0 0)
 				(effects
 					(font
@@ -872,246 +872,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "cap/CAP-0000-0270_1_1"
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.524) (xy 0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -1.524) (xy 1.778 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "#gplm:cap/CAP-0000-0390"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.27 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "39p"
-				(at 1.27 -2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "g-cap:C_0603_1608Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
-				(at -7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 39PF 50V C0G/NP0 0603"
-				(at -7.62 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "IPN" "CAP-0000-0390"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C0603C390J5GACTU"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Capacitance" "39p"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Material" "NP0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±5%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C107049"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "g-cap:C_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "cap/CAP-0000-0390_1_1"
+			(symbol "cap/CAP-0000-0220_1_1"
 				(polyline
 					(pts
 						(xy 0.762 0) (xy 0 0)
@@ -6499,7 +6260,7 @@
 			(uuid "09e358bd-5dc2-48b0-93ad-38634351492b")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R18")
 					(unit 1)
@@ -6904,7 +6665,7 @@
 			(uuid "e9b274e4-628d-46e9-8086-8818259d0987")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "D7")
 					(unit 1)
@@ -7048,7 +6809,7 @@
 			(uuid "a50dbdc3-3faf-4ccd-a1c8-ef845ae80ca2")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "C13")
 					(unit 1)
@@ -7174,7 +6935,7 @@
 			(uuid "5d5d2622-cd2d-4e33-b93b-9952c99e5f6f")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R19")
 					(unit 1)
@@ -7183,7 +6944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:cap/CAP-0000-0270")
+		(lib_id "#gplm:cap/CAP-0000-0220")
 		(at 119.38 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7201,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "22p"
 			(at 121.92 97.79 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7219,7 +6980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707043277824000"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -7229,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 27PF 50V C0G/NP0 0603"
+		(property "Description" "CAP CER 22pF 50V C0G 0603"
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -7239,7 +7000,7 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "CAP-0000-0270"
+		(property "IPN" "CAP-0000-0220"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -7248,7 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -7257,7 +7018,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C270J5GACTU"
+		(property "MPN" "CL10C220JB8NNNC"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -7266,7 +7027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "27p"
+		(property "Capacitance" "22p"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -7284,7 +7045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Material" "NP0"
+		(property "Material" "C0G"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -7302,7 +7063,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107045"
+		(property "LCSC" "C1653"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -7318,7 +7079,7 @@
 			(uuid "48e46ac9-704e-474c-b14b-7b0c021fcdc9")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "C11")
 					(unit 1)
@@ -7512,7 +7273,7 @@
 			(uuid "b16a9d38-3685-402c-b21e-0a578a1c8d99")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R1")
 					(unit 1)
@@ -7706,7 +7467,7 @@
 			(uuid "2b59c9a0-6650-4c1e-ac82-a814dcfef167")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R17")
 					(unit 1)
@@ -7836,7 +7597,7 @@
 			(uuid "20ca19a5-f351-4015-9d49-c23e56c5d386")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "Q5")
 					(unit 1)
@@ -8030,7 +7791,7 @@
 			(uuid "2e8265cf-8362-40f8-bb09-518884983214")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R20")
 					(unit 1)
@@ -8156,7 +7917,7 @@
 			(uuid "7136d8a7-1c83-487f-8a49-f311c5f458c2")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "D4")
 					(unit 1)
@@ -8411,7 +8172,7 @@
 			(uuid "f94ecac2-90f7-474c-8296-6b8581ce775d")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "L1")
 					(unit 1)
@@ -8819,7 +8580,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:cap/CAP-0000-0390")
+		(lib_id "#gplm:cap/CAP-0000-0220")
 		(at 119.38 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8837,7 +8598,7 @@
 				)
 			)
 		)
-		(property "Value" "39p"
+		(property "Value" "22p"
 			(at 121.92 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8855,7 +8616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707043277824000"
 			(at 127 93.98 0)
 			(effects
 				(font
@@ -8865,7 +8626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 39PF 50V C0G/NP0 0603"
+		(property "Description" "CAP CER 22pF 50V C0G 0603"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -8875,7 +8636,7 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "CAP-0000-0390"
+		(property "IPN" "CAP-0000-0220"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -8884,7 +8645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -8893,7 +8654,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C390J5GACTU"
+		(property "MPN" "CL10C220JB8NNNC"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -8902,7 +8663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "39p"
+		(property "Capacitance" "22p"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -8920,7 +8681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Material" "NP0"
+		(property "Material" "C0G"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -8938,7 +8699,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107049"
+		(property "LCSC" "C1653"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -8954,7 +8715,7 @@
 			(uuid "c7796935-8bad-4feb-a4ce-eb33e4d1deb0")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "C12")
 					(unit 1)
@@ -9165,7 +8926,7 @@
 			(uuid "9b949f7d-a0d0-4e2b-a043-7f159bc0d672")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "C15")
 					(unit 1)
@@ -9292,7 +9053,7 @@
 			(uuid "c75688b8-407b-42ee-a9fb-976d767b1d16")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R14")
 					(unit 1)
@@ -9739,7 +9500,7 @@
 			(uuid "64b1bef2-4de4-489a-9f26-27afdaaaa63b")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R15")
 					(unit 1)
@@ -10220,7 +9981,7 @@
 			(uuid "981b7f6f-23ee-4e06-ad02-094b118451d7")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R16")
 					(unit 1)
@@ -10364,7 +10125,7 @@
 			(uuid "0db5d94a-8bc5-413e-acd7-7e3e34e50e7a")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "C10")
 					(unit 1)
@@ -10556,7 +10317,7 @@
 			(uuid "1f96781d-bbfe-48a6-9b9c-7587cf9488cf")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R21")
 					(unit 1)
@@ -10749,7 +10510,7 @@
 			(uuid "f46f628a-3495-4257-aae3-285a2b68132c")
 		)
 		(instances
-			(project ""
+			(project "fmosc"
 				(path "/3dada041-f728-4295-8fb8-7b5173e4bef2/e949211d-0039-4338-a2fc-0b5d0b7f32a6"
 					(reference "R13")
 					(unit 1)
