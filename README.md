@@ -27,7 +27,9 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 * [Altium design : FMDET 1.0.0A](https://365.altium.com/files/EC3D910A-1821-4A3E-BA8B-47F879EACFAB)
 
 ## Project 5 : Variable Frequency Oscillator
-* [fmosc](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FLieBtrau%2FMegawattKS_Radio_Design_101%2Ftree%2Fmain%2Foscillator%2Fhardware%2Ffmosc)
+* [VFO design notes](./VFO/oscillator.ipynb)
+* [Test report PBA-0000-0100](./VFO/testreport_PBA-0000-0100.ipynb)
+* [KiCad design : PBA-0000-0101](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FLieBtrau%2FMegawattKS_Radio_Design_101%2Ftree%2Fmain%2FVFO%2Fhardware%2Ffmosc)
 
 ## Project 6 : Local Oscillator
 
