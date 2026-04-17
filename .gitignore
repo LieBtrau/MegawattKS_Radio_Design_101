@@ -18,3 +18,4 @@ __Previews/
 
 # KiCad files
 output/
+*.lck
