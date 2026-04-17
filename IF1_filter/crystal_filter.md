@@ -1,5 +1,6 @@
 # Available Ceramic Filter: 150kHz is preferred
 * Digikey : LTCV10.7MJ : 150kHz
+* LCSC HCI HCFF3-10.700-F150IL10AL : 
 * [RS Online](https://benl.rs-online.com/web/p/signal-filters/1062890) - Murata SFECV10M7JA00-R0 : 
   * 150kHz 
   * (obsolete)
