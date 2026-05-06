@@ -32,7 +32,7 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 * [Altium design : FMDET 1.0.0A](https://365.altium.com/files/EC3D910A-1821-4A3E-BA8B-47F879EACFAB)
 
 
-## Project 4B : Detector and Audio Amplifier : discrete design
+## Project 4B : Detector + RF frontend : discrete design
 * [KiCad design : PCB-0010-0000](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FLieBtrau%2FMegawattKS_Radio_Design_101%2Ftree%2Fmain%2Fdetector%2Fhardware%2Ffm-detector)
 
 # Other resources
