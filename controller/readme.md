@@ -1,0 +1,1 @@
+[RP2040 frequency counter](http://www.mino-elektronik.de/fmeter/fm_software.htm#bsp_RP2040), [forum post](https://www.eevblog.com/forum/projects/pico-frequency-counter-using-rp2040/)
