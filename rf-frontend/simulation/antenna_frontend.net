@@ -1,0 +1,25 @@
+* Z:\home\christoph\git\MegawattKS_Radio_Design_101\rf-frontend\simulation\antenna_frontend.asc
+V1 N002 0 0 AC 1 Rser=5k
+C_Whip N003 N002 100p
+C2 N004 N003 10p
+C3 0 N004 6p
+L1 N004 0 175n
+C4 out2 N004 10p
+R2 out2 0 50
+V2 N001 0 0 AC 1 Rser=5k
+C_Whip1 out1 N001 12p
+R1 out1 0 50
+R3 N007 N005 3
+C1 N006 N007 100p
+L2 N006 out3 45n
+C5 out3 0 128p
+V3 N005 0 0 AC 1 Rser=1000
+R4 out3 0 50
+R5 N004 0 1k
+.ac dec 101 50meg 500meg
+* Whip antenna directly to 50ohm input
+* Antenna impedance matching circuit and resonator : signal 10dB stronger
+* Antenna
+* Matching network
+.backanno
+.end
