@@ -69,3 +69,5 @@ Usable frequency deviation range is around ±30 kHz, which is much smaller than 
   <img src="./doc/screenshots/60kHz-fdev_with_limiter.png" width="600"/>
   <figcaption>Demodulated output from S-curve with D3 and D4 = 1N4148 : f=10.688 MHz, fdev = 60 kHz, fm = 1 kHz, input amplitude is 300 mVrms</figcaption>
 </figure>
+
+#### Trying wider bandwidth resonators
