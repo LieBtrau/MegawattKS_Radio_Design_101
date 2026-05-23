@@ -17,7 +17,7 @@
 | [TIR1](#tir1)<a id="ttir1"/> | LO doesn't oscillate | reduce R1 to 0 ohm |  |
 | [TIR2](#tir2)<a id="ttir2"/> | LO oscillates at 10.65 MHz instead of 10.5 MHz | adjust C4 to 22 pF in series with 330 pF<br/>In the final application, 330 pF should be replaced by a capacitor in parallel to a trimmer. |  |
 | [TIR3](#tir3)<a id="ttir3"/> | Output amplification is 0 | C7 must be connected to Q2.E instead of Q2.C |  |
-| [TIR4](#tir4)<a id="ttir4"/> | Output amplitude is 0.8 Vpp instead of > 1 Vpp | set C8 to 33 pF |  |
+| [TIR4](#tir4)<a id="ttir4"/> | Output amplitude is 0.8 Vpp instead of > 1 Vpp | set C8 to 68 pF |  |
 
 # Test Results
 | Action | Expected Result | Observed result | Status |
@@ -33,6 +33,7 @@
 | Output amplification | 174 | no amplification | [🛑 TIR3](#tir3)<a id="tir3"/> |
 | Output amplification after T3 fix| -174 | 760 / 12 = -63.3 |  |
 | Output amplitude | > 1 Vpp | 0.8 Vpp | [🛑 TIR4](#tir4)<a id="tir4"/> |
+
 
 # Test Result Details
 
@@ -53,4 +54,5 @@ That capacitor can then be split into 100 pF in parallel with a capacitor to be 
 
 ### TIR4: Output amplitude is too low
 * Output amplitude is 746 mVpp with C8 = 10 pF
-* Output amplitude is 2.08 Vpp with C8 = 33 pF
+* Output amplitude is 2.08 Vpp with C8 = 33 pF and 1k5 load
+* Output amplitude is 2.05 Vpp with C8 = 68 pF and 10k potmeter load
