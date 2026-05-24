@@ -70,4 +70,6 @@ Usable frequency deviation range is around ±30 kHz, which is much smaller than 
   <figcaption>Demodulated output from S-curve with D3 and D4 = 1N4148 : f=10.688 MHz, fdev = 60 kHz, fm = 1 kHz, input amplitude is 300 mVrms</figcaption>
 </figure>
 
+The sweep time has no effect on the shape of the S-curve.
+
 #### Trying wider bandwidth resonators
