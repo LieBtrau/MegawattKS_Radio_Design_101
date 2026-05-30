@@ -17,12 +17,12 @@ The author of the series also has a [companion website](https://ecefiles.org/rf-
 * [Altium design : LNA 1.0.2A](https://365.altium.com/files/E94FC5CA-4852-404E-B517-56AADBFE7270)
 
 ## Project 2 : Variable Frequency Oscillator
-* [VFO design notes](./VFO/oscillator.ipynb)
+* [VFO design notes](./VFO/colpitts_clapp.ipynb)
 * [Test report PBA-0000-0100](./VFO/testreport_PBA-0000-0100.ipynb)
 * [KiCad design : PBA-0000-0101](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FLieBtrau%2FMegawattKS_Radio_Design_101%2Ftree%2Fmain%2FVFO%2Fhardware%2Ffmosc)
 
 ## Project 3 : Mixer and IF Amplifier
-* [Mixer](./mixer/mixer.ipynb)
+* [Mixer](./IF1_mixer/mixer.ipynb)
 * [Termination Insensitive Amplifier](./post_mixer_amplifier/TIA.ipynb)
 * [Altium design : mixer 1.0.0](https://365.altium.com/files/F208B1A5-9C89-4744-8A48-3EA8E93C1159)
 
