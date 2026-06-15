@@ -15,7 +15,7 @@
 | Test | Incident | Proposed Solution | Status |
 |------|----------|-------------------|--------|
 | [TIR1](#tir1)<a id="ttir1"/> | LO doesn't oscillate | reduce R1 to 0 ohm |  |
-| [TIR2](#tir2)<a id="ttir2"/> | LO oscillates at 10.65 MHz instead of 10.5 MHz | adjust C4 to 22 pF in series with 330 pF<br/>In the final application, 330 pF should be replaced by a capacitor in parallel to a trimmer. |  |
+| [TIR2](#tir2)<a id="ttir2"/> | LO oscillates at 10.65 MHz instead of 10.5 MHz | adjust C4 to 22 pF in series with 330 pF<br/>In the final application, 330 pF should be replaced by a capacitor in series and one in parallel to a trimmer. |  |
 | [TIR3](#tir3)<a id="ttir3"/> | Output amplification is 0 | C7 must be connected to Q2.E instead of Q2.C |  |
 | [TIR4](#tir4)<a id="ttir4"/> | Output amplitude is 0.8 Vpp instead of > 1 Vpp | set C8 to 68 pF |  |
 
