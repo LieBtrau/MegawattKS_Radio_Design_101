@@ -1,4 +1,4 @@
-27233977034940443
+27304325440344427
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107351,6 +107351,13 @@ capacitor
 0
 2
 2
+g-cap
+C_Trimmer_Voltronics_JZ
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
+ Voltronics JR
+0
+2
+2
 g-con
 JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
 JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
@@ -107408,6 +107415,13 @@ hq
 2
 2
 g-ind
+L_Murata_LQW32FT_3225
+
+
+0
+2
+2
+g-ind
 L_Wurth_WE-CAIR-4248
 Air Coil, body 3.81x4.83x4.2mm, https://www.we-online.com/en/components/products/WE-CAIR#/articles/WE-CAIR-4248
 SMT
@@ -107456,6 +107470,13 @@ resistor
 0
 2
 2
+g-rfm
+H_Harwin_S0991-46R
+
+
+0
+3
+1
 g-rfm
 H_Wurth_WE-SHC-SEAMLESS-FRAME_3670128
 Seamless Shielding Cabinet for High Frequency Applications, body 12.8x12.3x7.5mm, https://www.we-online.com/en/components/products/datasheet/3670128?ki

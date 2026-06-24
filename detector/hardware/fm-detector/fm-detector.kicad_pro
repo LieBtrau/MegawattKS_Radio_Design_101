@@ -595,7 +595,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "connection_grid_size": 50.0,
+    "connection_grid_size": 100.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -608,7 +608,7 @@
       "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.1,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
@@ -623,7 +623,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://sheetTemplate.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://sheetTemplate_A5.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -645,6 +645,10 @@
       "Detector"
     ],
     [
+      "76f8c4ff-cb21-40f0-977e-341970740fa8",
+      "IF2_amp_stage1"
+    ],
+    [
       "3bad842e-023b-435e-814d-0bfbadea01ea",
       "Local Oscillator"
     ],
@@ -653,23 +657,31 @@
       "Mixer"
     ],
     [
-      "32475c27-a713-4208-8ad7-44d8c652927b",
-      "Locked-oscillator-limiter-discriminator"
+      "96a32aa2-3361-40ad-a9fe-9198196c6806",
+      "IF2_amp_stage2"
     ],
     [
-      "c6f2bbd6-eb35-43ee-8225-499090b4f694",
-      "RF-Frontend"
+      "33d74021-b385-45a2-9641-12be389e6789",
+      "IF2_amp"
+    ],
+    [
+      "26ab0b84-0f17-43e1-b675-29c04e8a10a3",
+      "audio_filter"
+    ],
+    [
+      "c7e0db6b-ba27-4b3e-917b-cb7116108e4d",
+      "IF2_amp_stage"
     ]
   ],
   "text_variables": {
     "BOARDID": "1",
     "BRANCHID": "0",
-    "DESIGNER": "CT",
+    "DESIGNER": "CTCK",
     "GIT_COMMIT_HASH": "TBD",
     "PROJECTID": "00",
     "PROJECTURL": "https://github.com/LieBtrau/MegawattKS_Radio_Design_101",
     "REQID": "0",
-    "REVID": "0",
+    "REVID": "1",
     "VARID": "0",
     "VARREV": "0"
   }

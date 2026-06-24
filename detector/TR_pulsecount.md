@@ -14,7 +14,7 @@
 
 | Test | Incident | Proposed Solution | Status |
 |------|----------|-------------------|--------|
-| [TIR1](#tir1)<a id="ttir1"/> | R21 is too high<br/>When choosing small values for R18, Q6 will not conduct enough when R21 is 20K | Change R21 from 20K to 10K |  |
+| [TIR1](#tir1)<a id="ttir1"/> | R21 is too high<br/>When choosing small values for R18, Q6 will not conduct enough when R21 is 20K | Change R21 from 20K to 10K<br/>Add 1N4148 parallel to R21 (cathode to PWM_audio) |  |
 | [TIR2](#tir2)<a id="ttir2"/> | The pulse width is too long.  This limits the maximum frequency | Change C18 from 330 pF to 150 pF |  |
 
 # Test Results
@@ -66,3 +66,5 @@ The sweep time has been set to 10 ms instead of 50 ms.  At 10 ms, the S-curve is
   <figcaption>S-curve (1 Hz to 100 kHz), 10 ms sweep time</figcaption>
 </figure>
 This detail shows that the S-curve is ok below 100 kHz as well.
+
+According to the changes made here, the IF2 should be in the range of 100 kHz to 200 kHz.
