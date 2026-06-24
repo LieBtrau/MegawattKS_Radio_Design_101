@@ -22,6 +22,6 @@
 | Switching operation | switching | amplitude is too low and no DC-offset | [🛑 TIR1](#tir1)<a id="tir1"/> |
 | Mixing output at 200 kHz with -20dBm input| -23 dBm | -23.2 dBm | ✅ |
 | 10.7 MHz Input leakage | ? | -69.4 dBm | ✅ |
-| 10.5 MHz LO leakage | ? | -59.9 dBm (this is the strongest by product in the 5 MHz to 50 MHz range) | ✅ |
+| 10.5 MHz LO leakage | ? | -59.9 dBm (this is the strongest by-product in the 5 MHz to 50 MHz range) | ✅ |
 
 # Test Result Details
