@@ -3064,6 +3064,17 @@
 		)
 		(uuid "2a2ae2d7-7749-4fc6-aa46-8f81091d4ca1")
 	)
+	(text "./detector/PulseCounting.md"
+		(exclude_from_sim no)
+		(at 115.57 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://github.com/LieBtrau/MegawattKS_Radio_Design_101/blob/main/detector/PulseCounting.md")
+		)
+		(uuid "37b1ef13-1541-436c-b1c2-e68a343645a7")
+	)
 	(text "(3.94 Vdc)"
 		(exclude_from_sim no)
 		(at 66.04 60.96 0)

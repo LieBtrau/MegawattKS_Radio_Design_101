@@ -2380,6 +2380,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "./audio_filter/DN_Audio_filter.md"
+		(exclude_from_sim no)
+		(at 118.11 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://github.com/LieBtrau/MegawattKS_Radio_Design_101/blob/main/audio_filter/DN_Audio_filter.md")
+		)
+		(uuid "f28b675e-0935-4fb6-b0c6-ca138c2ad351")
+	)
 	(junction
 		(at 91.44 50.8)
 		(diameter 0)

@@ -2580,6 +2580,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "./IF2_amp/DN_IF2_amp.md"
+		(exclude_from_sim no)
+		(at 115.57 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://github.com/LieBtrau/MegawattKS_Radio_Design_101/blob/main/IF2_amp/DN_IF2_amp.md")
+		)
+		(uuid "2cc0349d-8013-4fa2-a5f5-939984ab671e")
+	)
 	(junction
 		(at 25.4 50.8)
 		(diameter 0)
