@@ -18,10 +18,10 @@
     "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": false,
-      "footprints": true,
+      "footprints": false,
       "graphics": false,
       "keepouts": false,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": false,
       "pads": false,
       "text": false,
@@ -115,7 +115,8 @@
     "sorting_column": 0
   },
   "open_jobsets": [
-    "../../../../electronics-design-data/ECAD/KiCad/jobsets/gerber.kicad_jobset"
+    "../../../../electronics-design-data/ECAD/KiCad/jobsets/gerber.kicad_jobset",
+    "../../../../electronics-design-data/ECAD/KiCad/jobsets/assembly.kicad_jobset"
   ],
   "project": {
     "files": []

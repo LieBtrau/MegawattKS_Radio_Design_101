@@ -6035,7 +6035,7 @@
 		(dnp no)
 		(uuid "f1cd5484-b13b-4d11-bb6a-aba8aaf06260")
 		(property "Reference" "J4"
-			(at 168.91 52.07 0)
+			(at 173.99 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
