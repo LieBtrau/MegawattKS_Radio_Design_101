@@ -1,4 +1,4 @@
-27304325440344427
+27327417061106826
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106000,6 +106000,69 @@ auxiliary gate drive transformer
 0
 8
 8
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_74930000
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+12
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_74930000_PODL
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+12
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_74930030
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+7
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_74930100
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+12
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_74930100_PODL
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+11
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_74930120
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+7
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_74930130
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+7
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_749302010
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+7
+7
+Transformer_SMD_Wurth
+T_Wurth_WE-STST-4532_749302011
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+7
+7
 Transformer_THT
 Autotransformer_Toroid_1Tap_Horizontal_D9.0mm_Amidon-T30
 Autotransformer, Toroid, horizontal, laying, 1 Tap, Diameter 9mm, Amidon T30,
@@ -107337,6 +107400,13 @@ SOT TO_SOT_SMD
 0
 3
 3
+g-SOT
+SOT-143
+SOT-143 https://www.nxp.com/docs/en/package-information/SOT143B.pdf
+SOT-143
+0
+4
+4
 g-cap
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -107401,6 +107471,13 @@ Diode SOD523
 2
 2
 g-fil
+L_Wurth_WE-CNSW-1812
+Common Mode Line Filter, body 3.2x4.5x2.8mm, https://www.we-online.com/en/components/products/WE-CNSW#/articles/WE-CNSW-1812
+SMT
+0
+4
+4
+g-fil
 Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm
 Murata SFECV, Resonator/Filter, 6.9x2.9mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf
 ceramic
@@ -107435,6 +107512,13 @@ air coil inductor wurth we cair
 0
 2
 2
+g-ind
+T_Wurth_WE-STST-4532_74930000
+Super Tiny Signal Transformer, body 3.22x4.7x2.9mm, https://www.we-online.com/en/components/products/WE-STST#/articles/WE-STST_4532
+SMT
+0
+12
+7
 g-no_bom
 Fiducial_1mm_Mask2mm
 Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)
@@ -107476,6 +107560,13 @@ H_Harwin_S0991-46R
 
 0
 3
+1
+g-rfm
+H_TE_2118708
+
+
+0
+12
 1
 g-rfm
 H_Wurth_WE-SHC-SEAMLESS-FRAME_3670128

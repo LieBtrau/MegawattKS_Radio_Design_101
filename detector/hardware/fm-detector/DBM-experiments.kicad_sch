@@ -1,0 +1,149 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8773d3f8-b172-4045-8d50-00bbf9d6c90a")
+	(paper "A5")
+	(title_block
+		(title "Experiments with diode ring modulators")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 58.42)
+		(size 17.78 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1)
+		)
+		(uuid "0121ef64-94a9-4bf1-b21b-40c799d56eec")
+		(property "Sheetname" "COTS DBM"
+			(at 25.4 57.6322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cots-dbm.kicad_sch"
+			(at 25.4 66.7008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fm-detector"
+				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 40.64)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1)
+		)
+		(uuid "108cf9d2-aa72-4d27-b386-41a03d57097e")
+		(property "Sheetname" "Diode Ring Mixer"
+			(at 25.4 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diode-ring-mixer.kicad_sch"
+			(at 25.4 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fm-detector"
+				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 17.78 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1)
+		)
+		(uuid "75d2aed5-2303-4a94-8697-ac591b60a742")
+		(property "Sheetname" "Diode Ring Mixer Transmission Line"
+			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DBM_TLine.kicad_sch"
+			(at 25.4 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fm-detector"
+				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1"
+					(page "13")
+				)
+			)
+		)
+	)
+)
