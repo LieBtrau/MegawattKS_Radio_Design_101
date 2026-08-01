@@ -2971,6 +2971,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "C26")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3149,6 +3152,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3327,6 +3333,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "C13")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3567,6 +3576,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "L4")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3805,6 +3817,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "L6")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3981,6 +3996,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "C11")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4220,6 +4238,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "RV1")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4374,6 +4395,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "L5")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4634,6 +4658,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "C12")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4791,6 +4818,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/ece28f8f-c6ec-4158-ac9b-a7b743555906"
 					(reference "Q3")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)

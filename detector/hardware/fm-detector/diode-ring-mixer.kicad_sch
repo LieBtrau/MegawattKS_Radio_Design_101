@@ -2977,6 +2977,7 @@
 					(variant
 						(name "A")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
@@ -3221,6 +3222,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "T2")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3386,6 +3390,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "T1")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3539,6 +3546,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "D3")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3753,6 +3763,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "J10")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -3893,6 +3906,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "FL3")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4043,6 +4059,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "R34")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4181,6 +4200,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "J7")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4345,6 +4367,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "T3")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4561,6 +4586,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "J9")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -4779,6 +4807,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/467c2634-fe48-47e5-adb8-da867342ddb1/108cf9d2-aa72-4d27-b386-41a03d57097e"
 					(reference "FL1")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)

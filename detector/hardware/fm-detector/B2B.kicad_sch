@@ -2250,6 +2250,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/b062539f-8ce4-416d-86dd-3e95ffab7531"
 					(reference "J11")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
@@ -2492,6 +2495,9 @@
 				(path "/b6194304-53f6-4fe9-b4e3-d7d4346b2089/b062539f-8ce4-416d-86dd-3e95ffab7531"
 					(reference "J12")
 					(unit 1)
+					(variant
+						(name "A")
+					)
 				)
 			)
 		)
