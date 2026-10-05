@@ -1,0 +1,133 @@
+(footprint "TP_1.5mm_0.3mmHole"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 38.21704 43.044529 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0816e3f-6a10-425c-88a9-e65e9d9594f6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Testpad with multiple sizes"
+		(at -2.886202 14.686642 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5195f7c7-df70-40ce-b410-707575660557")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4a15a99-4d54-41eb-acde-01063918700d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29541bcb-840c-4c83-a399-76f1c198135a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "FMDET")
+	(sheetfile "FMDET.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end -1.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "90b525ed-9b3c-442c-9284-bfc9aa49995b")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "556e51c3-9d6b-4d83-bf2d-9f082d112fe2")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e4e956e-9848-4d28-a0d8-2eb94f694083")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6a5083e1-d997-43a2-81c1-47b3eb02d56a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.037879 -0.01767 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5a38d46-c127-47f7-b4c6-27d8a023aeba")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 90)
+		(uuid "14843ce4-5e12-4412-a373-193939ef59a4")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 0.6 0.6)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 0.6 0.6)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

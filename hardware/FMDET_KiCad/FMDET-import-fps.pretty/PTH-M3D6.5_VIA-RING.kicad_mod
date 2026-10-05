@@ -1,0 +1,101 @@
+(footprint "PTH-M3D6.5_VIA-RING"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.051209 0.00855 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4eec9bab-205a-466d-9867-5056330a5545")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 4.468585 4.867402 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "24c95143-07c5-4e77-8a4b-c15892c59e1a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "013b3770-bf3b-4444-8c26-c321d7a6dd73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd8346aa-2933-45f8-a69d-8f02132942d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "FMDET")
+	(sheetfile "FMDET.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bbeb4bec-f705-4ea7-8cc8-cd5029656044")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d567b350-95c7-4dee-9cc3-0e66aae89ec1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.057359 0.01767 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a211d31a-a52a-4ae1-98a5-52fbc902b442")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "e417ae41-ba3f-42f1-bef1-6a02eb675f8f")
+	)
+	(embedded_fonts no)
+)
