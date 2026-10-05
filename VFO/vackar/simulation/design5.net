@@ -1,0 +1,35 @@
+* C:\users\christoph\Documents\git\MegawattKS_Radio_Design_101\VFO\vackar\simulation\design5.asc
+J1 N003 N006 0 J309
+L1 N001 N003 4.7µ Rser=10
+R1 N006 0 4.7k
+C1 N002 N006 150p
+C2 0 N006 10p
+L2 N003 N002 100n Rser=0.2
+V1 N001 0 5
+C3 N003 0 120p
+R2 osc_out 0 10k
+C4 osc_out N003 100n
+C5 N002 N005 150p
+R3 N005 N004 10k
+V2 N004 0 3
+D1 0 N005 1SV324
+D2 0 N005 1SV324
+D3 0 N005 1SV324
+.model D D
+.lib C:\users\christoph\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NJF NJF
+.model PJF PJF
+.lib C:\users\christoph\Documents\LTspiceXVII\lib\cmp\standard.jft
+.tran 0 100u 50u 1n
+.param first_edge 200 ; 200th edge
+.param last_edge 700 ; 700th edge
+.param zero_crossing_voltage 0 ; voltage at zero crossing
+.meas tran T1 find time when V(osc_out)={zero_crossing_voltage} rise {first_edge}
+.meas tran T2 find time when V(osc_out)={zero_crossing_voltage} rise {last_edge}
+.meas tran Frequency param ({last_edge}-{first_edge})/(T2-T1)
+.options numdgt=7
+.options plotwinsize=0
+.model 1SV324 D(Is=2.593E-15 Rs=0.4 N=1.024 BV=10 Ibv=1.00E-04 Cjo=7.672E-11 Vj=100 M=49.19)
+* Voltage over varicaps must be limited, so that means that they should be quite large\nin comparison to the capacitors in series.\nUnfortunately, in a series capacitor network, the largest capacitor doesn't have a lot \nof influence on the frequency.
+.backanno
+.end
