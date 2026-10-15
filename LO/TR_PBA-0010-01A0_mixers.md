@@ -40,3 +40,19 @@ TF2 is part of the transmission line transformer on the LO.  By replacing one le
 ## Cost : €1.54
 * diode ring : €0.71 @ 1 pce
 * CM-choke : 4x €0.21 = €0.84 @ 5 pcs
+
+# Discrete diode ring mixer
+* LO-port : 100 MHz, 500 mVpp (-2 dBm)
+* RF-port : 90 MHz, 10 mVpp (-36 dBm)
+
+## R34 placed : Performance parameters
+All six possibilities of connecting the cables tested.  The following give the best results : 500 mVpp -> IF; 10 mVpp -> LO
+* Conversion loss : -36 - (-48.5) = 12 dB
+* LO-RF isolation : -2 - (-35) = 33 dB
+* LO-IF isolation : -2 - (-30) = 28 dB
+
+## R35 placed : Performance parameters
+500 mVpp -> IF; 10 mVpp -> LO
+* Conversion loss : -36 - (-50) = 14 dB
+* LO-RF isolation : -2 - (-41) = 39 dB
+* LO-IF isolation : -2 - (-34) = 32 dB
